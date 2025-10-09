@@ -2,7 +2,7 @@ name: Daily Report
 
 on:
   schedule:
-    - cron: '0 11 * * *'
+    - cron: '0 4 * * *'  # 北京时间中午12:00 (UTC+8)
   workflow_dispatch:
 
 jobs:

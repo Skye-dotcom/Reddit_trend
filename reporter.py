@@ -228,6 +228,9 @@ class ReportGenerator:
             report += f"| {i} | [{title}]({post_url}) | "
             report += f"r/{post['subreddit']} | {post['score']} | "
             report += f"{post['num_comments']} |\n"
+            # 添加完整标题行
+            full_title = self._escape_markdown(post['title'])
+            report += f"| | {full_title} | | | |\n"
     
         report += "\n---\n\n## 📈 本周热门帖子排行榜 (按分数排序)\n\n"
         report += "| 排名 | 标题 | 社区 | 分数 | 评论数 |\n"
@@ -242,6 +245,9 @@ class ReportGenerator:
             report += f"| {i} | [{title}]({post_url}) | "
             report += f"r/{post['subreddit']} | {post['score']} | "
             report += f"{post['num_comments']} |\n"
+            # 添加完整标题行
+            full_title = self._escape_markdown(post['title'])
+            report += f"| | {full_title} | | | |\n"
     
         report += "\n---\n\n## 🗓️ 本月热门帖子排行榜 (按分数排序)\n\n"
         report += "| 排名 | 标题 | 社区 | 分数 | 评论数 |\n"
@@ -256,6 +262,9 @@ class ReportGenerator:
             report += f"| {i} | [{title}]({post_url}) | "
             report += f"r/{post['subreddit']} | {post['score']} | "
             report += f"{post['num_comments']} |\n"
+            # 添加完整标题行
+            full_title = self._escape_markdown(post['title'])
+            report += f"| | {full_title} | | | |\n"
 
         # ... 其余报告内容保持不变
         
@@ -273,6 +282,9 @@ class ReportGenerator:
             report += f"| {i} | [{title}]({post_url}) | "
             report += f"r/{post['subreddit']} | {post.get('quality_score', 0):.2f} | "
             report += f"{post['score']} | {post['num_comments']} |\n"
+            # 添加完整标题行
+            full_title = self._escape_markdown(post['title'])
+            report += f"| | {full_title} | | | | |\n"
         
         # 添加趋势关键词
         keyword_freq = trend_analysis.get('keyword_trends', {}).get('keyword_frequency', {})
