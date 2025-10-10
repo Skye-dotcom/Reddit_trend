@@ -10,6 +10,7 @@ from cleaner import DataCleaner
 from analyzer import TrendAnalyzer
 from scorer import QualityScorer
 from reporter import ReportGenerator
+from summarizer import PostSummarizer
 
 # 配置日志
 logging.basicConfig(
@@ -43,7 +44,8 @@ def main():
     # 初始化各模块
     fetcher = RedditDataFetcher()
     cleaner = DataCleaner()
-    analyzer = TrendAnalyzer()
+    summarizer = PostSummarizer()  # 初始化摘要生成器
+    analyzer = TrendAnalyzer(summarizer=summarizer)  # 传入summarizer
     scorer = QualityScorer()
     reporter = ReportGenerator()
     
@@ -57,11 +59,17 @@ def main():
     cleaned_posts = cleaner.clean_posts(raw_posts, remove_duplicates=False)
     logger.info(f"清洗后保留 {sum(len(posts) for posts in cleaned_posts.values())} 个帖子")
     
-    # ========== 步骤3: 制作三个时间维度的热门排行表 + 趋势分析 ==========
-    logger.info("步骤3: 三个时间维度热门排行 + 趋势分析")
-    timeframe_rankings = analyzer.create_hot_ranking(cleaned_posts, top_k=20)
+    # ========== 步骤3: 制作三个时间维度的热门排行表 + 趋势分析 + 生成摘要 ==========
+    logger.info("步骤3: 三个时间维度热门排行 + 趋势分析 + 摘要生成")
+    timeframe_rankings = analyzer.create_hot_ranking(
+        cleaned_posts, 
+        top_k=20, 
+        fetcher=fetcher,  # 传入fetcher用于获取评论
+        generate_summaries=True  # 启用摘要生成
+    )
     trend_analysis = analyzer.analyze_trends(cleaned_posts)
     logger.info(f"生成热门排行榜: hot-{len(timeframe_rankings['hot'])}, week-{len(timeframe_rankings['week'])}, month-{len(timeframe_rankings['month'])}")
+    logger.info("摘要生成已完成")
     
     # ========== 步骤4: 去重（保留hot最高）==========
     logger.info("步骤4: 数据去重")
@@ -73,6 +81,16 @@ def main():
     scored_posts = scorer.score_posts(unique_posts, trend_analysis)
     quality_ranking = scorer.get_top_quality_posts(scored_posts, top_k=5)
     logger.info(f"高质量帖子TOP5已选出")
+    
+    # 为高质量帖子生成摘要（如果还没有）
+    logger.info("为高质量帖子生成摘要...")
+    quality_ranking = summarizer.generate_summaries_for_posts(
+        quality_ranking, 
+        fetcher,
+        max_workers=3,  # TOP5数量少，减少并发
+        max_comments=5
+    )
+    logger.info("高质量帖子摘要生成完成")
     
     # ========== 步骤6: 深度信息获取（TOP5）==========
     logger.info("步骤6: 深度信息获取")

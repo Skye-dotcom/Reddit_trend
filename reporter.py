@@ -8,7 +8,7 @@ from typing import Any, Dict, List
 
 from openai import OpenAI
 
-from config import LLM_CONFIG
+from config import LLM_CONFIG, LLM_ANALYSIS_CONFIG
 
 
 logger = logging.getLogger(__name__)
@@ -60,15 +60,24 @@ class ReportGenerator:
         trend_analysis: Dict[str, Any],
         detailed_posts: List[Dict],
     ) -> str:
-        """使用大模型进行综合分析"""
+        """使用大模型进行综合分析（步骤8专用qwen3-max）"""
         
-        logger.info("开始大模型综合分析...")
+        logger.info("开始大模型综合分析（使用%s）...", LLM_ANALYSIS_CONFIG.get("model"))
         
         prompt = self._build_llm_prompt(hot_ranking, trend_analysis, detailed_posts)
         
+        # 如果LLM_ANALYSIS_CONFIG的api_key为空，使用LLM_CONFIG的api_key
+        api_key = LLM_ANALYSIS_CONFIG.get("api_key") or LLM_CONFIG.get("api_key")
+        
         try:
-            response = self.llm_client.chat.completions.create(
-                model=LLM_CONFIG.get("model"),
+            # 为步骤8创建专用的客户端
+            analysis_client = OpenAI(
+                api_key=api_key,
+                base_url=LLM_ANALYSIS_CONFIG.get("base_url"),
+            )
+            
+            response = analysis_client.chat.completions.create(
+                model=LLM_ANALYSIS_CONFIG.get("model"),
                 messages=[
                     {
                         "role": "system",
@@ -77,8 +86,8 @@ class ReportGenerator:
                     {"role": "user", "content": prompt},
                 ],
                 stream=True,
-                temperature=LLM_CONFIG.get("temperature", 0.3),
-                max_tokens=LLM_CONFIG.get("max_tokens", 20000),
+                temperature=LLM_ANALYSIS_CONFIG.get("temperature", 0.3),
+                max_tokens=LLM_ANALYSIS_CONFIG.get("max_tokens", 10000),
             )
             
             content = ""
@@ -102,7 +111,9 @@ class ReportGenerator:
         # 提取热门帖子摘要
         hot_summary = []
         for i, post in enumerate(hot_ranking[:10], 1):
-            hot_summary.append(f"{i}. [{post['title'][:80]}] - r/{post['subreddit']} - {post['score']}分 - {post['num_comments']}评论")
+            # 优先使用摘要，如果没有则使用标题
+            summary_text = post.get('summary', post.get('title', ''))[:80]
+            hot_summary.append(f"{i}. [{summary_text}] - r/{post['subreddit']} - {post['score']}分 - {post['num_comments']}评论")
         
         # 提取TOP5详细内容
         detailed_summary = []
@@ -228,9 +239,11 @@ class ReportGenerator:
             report += f"| {i} | [{title}]({post_url}) | "
             report += f"r/{post['subreddit']} | {post['score']} | "
             report += f"{post['num_comments']} |\n"
-            # 添加完整标题行
-            full_title = self._escape_markdown(post['title'])
-            report += f"| | {full_title} | | | |\n"
+            # 添加摘要行（如果有）
+            summary = post.get('summary', '')
+            if summary:
+                summary_escaped = self._escape_markdown(summary)
+                report += f"| | {summary_escaped} | | | |\n"
     
         report += "\n---\n\n## 📈 本周热门帖子排行榜 (按分数排序)\n\n"
         report += "| 排名 | 标题 | 社区 | 分数 | 评论数 |\n"
@@ -245,9 +258,11 @@ class ReportGenerator:
             report += f"| {i} | [{title}]({post_url}) | "
             report += f"r/{post['subreddit']} | {post['score']} | "
             report += f"{post['num_comments']} |\n"
-            # 添加完整标题行
-            full_title = self._escape_markdown(post['title'])
-            report += f"| | {full_title} | | | |\n"
+            # 添加摘要行（如果有）
+            summary = post.get('summary', '')
+            if summary:
+                summary_escaped = self._escape_markdown(summary)
+                report += f"| | {summary_escaped} | | | |\n"
     
         report += "\n---\n\n## 🗓️ 本月热门帖子排行榜 (按分数排序)\n\n"
         report += "| 排名 | 标题 | 社区 | 分数 | 评论数 |\n"
@@ -262,9 +277,11 @@ class ReportGenerator:
             report += f"| {i} | [{title}]({post_url}) | "
             report += f"r/{post['subreddit']} | {post['score']} | "
             report += f"{post['num_comments']} |\n"
-            # 添加完整标题行
-            full_title = self._escape_markdown(post['title'])
-            report += f"| | {full_title} | | | |\n"
+            # 添加摘要行（如果有）
+            summary = post.get('summary', '')
+            if summary:
+                summary_escaped = self._escape_markdown(summary)
+                report += f"| | {summary_escaped} | | | |\n"
 
         # ... 其余报告内容保持不变
         
@@ -282,9 +299,11 @@ class ReportGenerator:
             report += f"| {i} | [{title}]({post_url}) | "
             report += f"r/{post['subreddit']} | {post.get('quality_score', 0):.2f} | "
             report += f"{post['score']} | {post['num_comments']} |\n"
-            # 添加完整标题行
-            full_title = self._escape_markdown(post['title'])
-            report += f"| | {full_title} | | | | |\n"
+            # 添加摘要行（如果有）
+            summary = post.get('summary', '')
+            if summary:
+                summary_escaped = self._escape_markdown(summary)
+                report += f"| | {summary_escaped} | | | | |\n"
         
         # 添加趋势关键词
         keyword_freq = trend_analysis.get('keyword_trends', {}).get('keyword_frequency', {})

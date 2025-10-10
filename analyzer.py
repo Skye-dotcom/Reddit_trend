@@ -6,23 +6,35 @@ import logging
 from collections import defaultdict, Counter
 from typing import Dict, List, Any
 import statistics
+from summarizer import PostSummarizer
 
 logger = logging.getLogger(__name__)
 
 class TrendAnalyzer:
     """趋势分析器"""
     
-    def __init__(self):
+    def __init__(self, summarizer: PostSummarizer = None):
+        """
+        初始化趋势分析器
+        
+        Args:
+            summarizer: 摘要生成器实例，如果为None则不生成摘要
+        """
+        self.summarizer = summarizer
         logger.info("趋势分析器初始化完成")
     
     def create_hot_ranking(self, posts_dict: Dict[str, List[Dict]], 
-                          top_k: int = 20) -> Dict[str, List[Dict[str, Any]]]:
+                          top_k: int = 20,
+                          fetcher = None,
+                          generate_summaries: bool = True) -> Dict[str, List[Dict[str, Any]]]:
         """
         创建三个时间维度的热门帖子排行榜
         
         Args:
             posts_dict: 清洗后的数据
             top_k: 每个排行榜返回前K个
+            fetcher: RedditDataFetcher实例，用于获取评论（生成摘要时需要）
+            generate_summaries: 是否生成摘要
         
         Returns:
             包含三个时间维度排行榜的字典:
@@ -65,6 +77,41 @@ class TrendAnalyzer:
         
         # month维度：按score降序排序
         month_ranking = sorted(month_posts, key=lambda x: x.get('score', 0), reverse=True)[:top_k]
+        
+        # 生成摘要
+        if generate_summaries and self.summarizer and fetcher:
+            logger.info("开始为排行榜中的帖子生成摘要...")
+            
+            # 收集所有需要生成摘要的帖子（去重）
+            all_posts_to_summarize = {}
+            for post in hot_ranking + week_ranking + month_ranking:
+                post_id = post.get('id')
+                if post_id and post_id not in all_posts_to_summarize:
+                    all_posts_to_summarize[post_id] = post
+            
+            posts_list = list(all_posts_to_summarize.values())
+            logger.info(f"需要生成摘要的唯一帖子数: {len(posts_list)}")
+            
+            # 批量生成摘要
+            posts_with_summaries = self.summarizer.generate_summaries_for_posts(
+                posts_list, 
+                fetcher,
+                max_workers=5,  # 控制并发数
+                max_comments=5
+            )
+            
+            # 创建ID到摘要的映射
+            summary_map = {post['id']: post.get('summary', '') for post in posts_with_summaries}
+            
+            # 将摘要添加到排行榜中的帖子
+            for post in hot_ranking:
+                post['summary'] = summary_map.get(post['id'], post.get('title', '')[:100])
+            for post in week_ranking:
+                post['summary'] = summary_map.get(post['id'], post.get('title', '')[:100])
+            for post in month_ranking:
+                post['summary'] = summary_map.get(post['id'], post.get('title', '')[:100])
+            
+            logger.info("摘要生成完成并已添加到排行榜")
         
         return {
             'hot': hot_ranking,
