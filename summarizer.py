@@ -79,8 +79,9 @@ class PostSummarizer:
                         logger.info(f"摘要生成进度: {completed}/{len(posts)}")
                 except Exception as e:
                     logger.error(f"生成帖子 {post.get('id')} 摘要失败: {e}")
-                    # 失败时使用标题作为摘要
-                    post['summary'] = post.get('title', '')[:100]
+                    # 失败时标记错误信息
+                    post['summary_error'] = str(e)
+                    post['summary'] = None
                     posts_with_summary.append(post)
         
         logger.info(f"摘要生成完成: {len(posts_with_summary)}/{len(posts)}")
@@ -159,14 +160,16 @@ class PostSummarizer:
             return "无法获取评论"
     
     def _call_llm_for_summary(self, content: str) -> str:
-        """
-        调用LLM生成摘要
+        """调用LLM生成摘要
         
         Args:
             content: 需要摘要的内容
         
         Returns:
             摘要文本（100字以内）
+        
+        Raises:
+            Exception: 如果LLM调用失败
         """
         prompt = f"""请为以下Reddit帖子生成一个简洁的摘要，要求：
 1. 摘要字数控制在100字以内
@@ -205,5 +208,5 @@ class PostSummarizer:
         
         except Exception as e:
             logger.error(f"LLM调用失败: {e}")
-            # 失败时返回内容的前100字
-            return content[:100]
+            # 失败时抛出异常，让上层处理
+            raise Exception(f"LLM调用失败: {str(e)}")
