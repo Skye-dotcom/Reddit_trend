@@ -100,6 +100,56 @@ def main():
     
     # ========== 步骤7: 大模型综合分析 ==========
     logger.info("步骤7: 大模型综合分析")
+    
+    # 数据完整性验证
+    logger.info(f"\n{'='*60}")
+    logger.info("📊 数据完整性验证...")
+    logger.info(f"  hot排行榜: {len(timeframe_rankings['hot'])} 个帖子")
+    logger.info(f"  week排行榜: {len(timeframe_rankings['week'])} 个帖子")
+    logger.info(f"  month排行榜: {len(timeframe_rankings['month'])} 个帖子")
+    logger.info(f"  详细帖子: {len(detailed_posts)} 个帖子")
+    
+    # 检查None值
+    none_in_hot = []
+    for i, post in enumerate(timeframe_rankings['hot']):
+        if post is None:
+            none_in_hot.append(i)
+            logger.error(f"❌ hot排行榜[{i}] 是 None")
+    
+    none_in_week = []
+    for i, post in enumerate(timeframe_rankings['week']):
+        if post is None:
+            none_in_week.append(i)
+            logger.error(f"❌ week排行榜[{i}] 是 None")
+    
+    none_in_month = []
+    for i, post in enumerate(timeframe_rankings['month']):
+        if post is None:
+            none_in_month.append(i)
+            logger.error(f"❌ month排行榜[{i}] 是 None")
+    
+    none_in_detailed = []
+    for i, post in enumerate(detailed_posts):
+        if post is None:
+            none_in_detailed.append(i)
+            logger.error(f"❌ detailed_posts[{i}] 是 None")
+    
+    total_none = len(none_in_hot) + len(none_in_week) + len(none_in_month) + len(none_in_detailed)
+    
+    if total_none > 0:
+        logger.error(f"\n⚠️ 发现 {total_none} 个None值！")
+        if none_in_hot:
+            logger.error(f"  hot排行榜中有 {len(none_in_hot)} 个None，位置: {none_in_hot}")
+        if none_in_week:
+            logger.error(f"  week排行榜中有 {len(none_in_week)} 个None，位置: {none_in_week}")
+        if none_in_month:
+            logger.error(f"  month排行榜中有 {len(none_in_month)} 个None，位置: {none_in_month}")
+        if none_in_detailed:
+            logger.error(f"  detailed_posts中有 {len(none_in_detailed)} 个None，位置: {none_in_detailed}")
+    else:
+        logger.info("✅ 数据验证通过，没有None值")
+    
+    logger.info(f"{'='*60}\n")
 
     # 创建一个合并的排行榜，包含所有三个时间维度的帖子
     combined_ranking = (
@@ -107,6 +157,8 @@ def main():
         timeframe_rankings['week'] + 
         timeframe_rankings['month']
     )
+    
+    logger.info(f"合并后排行榜总数: {len(combined_ranking)} 个帖子")
 
     llm_analysis = reporter.analyze_with_llm(
         hot_ranking=combined_ranking,  # 传递合并后的排行榜
