@@ -64,6 +64,46 @@ class ReportGenerator:
         
         logger.info("开始大模型综合分析（使用%s）...", LLM_ANALYSIS_CONFIG.get("model"))
         
+        # 检查并记录None值
+        original_hot_count = len(hot_ranking)
+        original_detailed_count = len(detailed_posts)
+        
+        none_in_hot = [i for i, post in enumerate(hot_ranking) if post is None]
+        none_in_detailed = [i for i, post in enumerate(detailed_posts) if post is None]
+        
+        if none_in_hot or none_in_detailed:
+            logger.error(f"\n{'='*60}")
+            logger.error(f"⚠️ 发现None值！")
+            if none_in_hot:
+                logger.error(f"hot_ranking中有 {len(none_in_hot)} 个None值，位置: {none_in_hot}")
+                logger.error(f"hot_ranking总长度: {original_hot_count}")
+            if none_in_detailed:
+                logger.error(f"detailed_posts中有 {len(none_in_detailed)} 个None值，位置: {none_in_detailed}")
+                logger.error(f"detailed_posts总长度: {original_detailed_count}")
+            logger.error(f"{'='*60}\n")
+        
+        # 过滤None值并记录被过滤的帖子信息
+        hot_ranking_filtered = []
+        for i, post in enumerate(hot_ranking):
+            if post is None:
+                logger.error(f"❌ hot_ranking[{i}] 是 None，已被过滤")
+            else:
+                hot_ranking_filtered.append(post)
+        
+        detailed_posts_filtered = []
+        for i, post in enumerate(detailed_posts):
+            if post is None:
+                logger.error(f"❌ detailed_posts[{i}] 是 None，已被过滤")
+            else:
+                detailed_posts_filtered.append(post)
+        
+        hot_ranking = hot_ranking_filtered
+        detailed_posts = detailed_posts_filtered
+        
+        if not hot_ranking:
+            logger.warning("热门帖子列表为空，无法进行分析")
+            return "数据不足：没有可分析的热门帖子"
+        
         prompt = self._build_llm_prompt(hot_ranking, trend_analysis, detailed_posts)
         
         # 如果LLM_ANALYSIS_CONFIG的api_key为空，使用LLM_CONFIG的api_key
@@ -108,11 +148,35 @@ class ReportGenerator:
                          detailed_posts: List[Dict]) -> str:
         """构建大模型分析提示"""
         
+        # 二次检查None值（理论上不应该有，因为analyze_with_llm已经过滤了）
+        none_count_hot = sum(1 for post in hot_ranking if post is None)
+        none_count_detailed = sum(1 for post in detailed_posts if post is None)
+        
+        if none_count_hot > 0 or none_count_detailed > 0:
+            logger.error(f"⚠️ _build_llm_prompt中仍然发现None值！")
+            logger.error(f"   hot_ranking: {none_count_hot}个None / {len(hot_ranking)}个总数")
+            logger.error(f"   detailed_posts: {none_count_detailed}个None / {len(detailed_posts)}个总数")
+            
+            # 记录None值的具体位置
+            for i, post in enumerate(hot_ranking):
+                if post is None:
+                    logger.error(f"   hot_ranking[{i}] = None")
+            for i, post in enumerate(detailed_posts):
+                if post is None:
+                    logger.error(f"   detailed_posts[{i}] = None")
+        
+        # 过滤掉None值（防御性编程）
+        hot_ranking = [post for post in hot_ranking if post is not None]
+        detailed_posts = [post for post in detailed_posts if post is not None]
+        
         # 提取热门帖子摘要
         hot_summary = []
         for i, post in enumerate(hot_ranking[:10], 1):
-            # 优先使用摘要，如果没有则使用标题
-            summary_text = post.get('summary', post.get('title', ''))[:80]
+            # 优先使用摘要，如果没有或生成失败则使用标题
+            if post.get('summary'):
+                summary_text = post['summary'][:80]
+            else:
+                summary_text = post.get('title', '')[:80]
             hot_summary.append(f"{i}. [{summary_text}] - r/{post['subreddit']} - {post['score']}分 - {post['num_comments']}评论")
         
         # 提取TOP5详细内容
@@ -203,6 +267,13 @@ class ReportGenerator:
         quality_ranking = report_data.get('quality_ranking', [])
         trend_analysis = report_data.get('trend_analysis', {})
         llm_analysis = report_data.get('llm_analysis', '')
+        
+        # 过滤None值
+        timeframe_rankings = {
+            key: [post for post in posts if post is not None]
+            for key, posts in timeframe_rankings.items()
+        }
+        quality_ranking = [post for post in quality_ranking if post is not None]
     
         report = f"""# Reddit AI社区深度分析报告
 
@@ -239,10 +310,13 @@ class ReportGenerator:
             report += f"| {i} | [{title}]({post_url}) | "
             report += f"r/{post['subreddit']} | {post['score']} | "
             report += f"{post['num_comments']} |\n"
-            # 添加摘要行（如果有）
-            summary = post.get('summary', '')
-            if summary:
-                summary_escaped = self._escape_markdown(summary)
+            # 添加摘要或错误信息
+            if post.get('summary_error'):
+                error_msg = f"⚠️ 摘要生成错误：{post.get('summary_error')}"
+                error_escaped = self._escape_markdown(error_msg)
+                report += f"| | {error_escaped} | | | |\n"
+            elif post.get('summary'):
+                summary_escaped = self._escape_markdown(post['summary'])
                 report += f"| | {summary_escaped} | | | |\n"
     
         report += "\n---\n\n## 📈 本周热门帖子排行榜 (按分数排序)\n\n"
@@ -258,10 +332,13 @@ class ReportGenerator:
             report += f"| {i} | [{title}]({post_url}) | "
             report += f"r/{post['subreddit']} | {post['score']} | "
             report += f"{post['num_comments']} |\n"
-            # 添加摘要行（如果有）
-            summary = post.get('summary', '')
-            if summary:
-                summary_escaped = self._escape_markdown(summary)
+            # 添加摘要或错误信息
+            if post.get('summary_error'):
+                error_msg = f"⚠️ 摘要生成错误：{post.get('summary_error')}"
+                error_escaped = self._escape_markdown(error_msg)
+                report += f"| | {error_escaped} | | | |\n"
+            elif post.get('summary'):
+                summary_escaped = self._escape_markdown(post['summary'])
                 report += f"| | {summary_escaped} | | | |\n"
     
         report += "\n---\n\n## 🗓️ 本月热门帖子排行榜 (按分数排序)\n\n"
@@ -277,10 +354,13 @@ class ReportGenerator:
             report += f"| {i} | [{title}]({post_url}) | "
             report += f"r/{post['subreddit']} | {post['score']} | "
             report += f"{post['num_comments']} |\n"
-            # 添加摘要行（如果有）
-            summary = post.get('summary', '')
-            if summary:
-                summary_escaped = self._escape_markdown(summary)
+            # 添加摘要或错误信息
+            if post.get('summary_error'):
+                error_msg = f"⚠️ 摘要生成错误：{post.get('summary_error')}"
+                error_escaped = self._escape_markdown(error_msg)
+                report += f"| | {error_escaped} | | | |\n"
+            elif post.get('summary'):
+                summary_escaped = self._escape_markdown(post['summary'])
                 report += f"| | {summary_escaped} | | | |\n"
 
         # ... 其余报告内容保持不变
@@ -299,10 +379,13 @@ class ReportGenerator:
             report += f"| {i} | [{title}]({post_url}) | "
             report += f"r/{post['subreddit']} | {post.get('quality_score', 0):.2f} | "
             report += f"{post['score']} | {post['num_comments']} |\n"
-            # 添加摘要行（如果有）
-            summary = post.get('summary', '')
-            if summary:
-                summary_escaped = self._escape_markdown(summary)
+            # 添加摘要或错误信息
+            if post.get('summary_error'):
+                error_msg = f"⚠️ 摘要生成错误：{post.get('summary_error')}"
+                error_escaped = self._escape_markdown(error_msg)
+                report += f"| | {error_escaped} | | | | |\n"
+            elif post.get('summary'):
+                summary_escaped = self._escape_markdown(post['summary'])
                 report += f"| | {summary_escaped} | | | | |\n"
         
         # 添加趋势关键词
