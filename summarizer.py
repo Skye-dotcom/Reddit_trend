@@ -69,22 +69,57 @@ class PostSummarizer:
             }
             
             completed = 0
+            success_count = 0
+            failed_count = 0
+            
             for future in as_completed(future_to_post):
                 post = future_to_post[future]
+                post_id = post.get('id', 'unknown')
+                post_title = post.get('title', 'No title')[:50]
+                post_url = post.get('permalink', f"https://reddit.com/comments/{post_id}")
+                
                 try:
                     post_with_summary = future.result()
                     posts_with_summary.append(post_with_summary)
                     completed += 1
+                    success_count += 1
+                    logger.info(f"✅ [{completed}/{len(posts)}] 摘要生成成功 - {post_id}")
+                    logger.debug(f"   标题: {post_title}")
+                    logger.debug(f"   链接: {post_url}")
+                    
                     if completed % 10 == 0:
-                        logger.info(f"摘要生成进度: {completed}/{len(posts)}")
+                        logger.info(f"📊 摘要生成进度: {completed}/{len(posts)} (成功: {success_count}, 失败: {failed_count})")
                 except Exception as e:
-                    logger.error(f"生成帖子 {post.get('id')} 摘要失败: {e}")
+                    completed += 1
+                    failed_count += 1
+                    logger.error(f"❌ [{completed}/{len(posts)}] 摘要生成失败 - {post_id}")
+                    logger.error(f"   标题: {post_title}")
+                    logger.error(f"   链接: {post_url}")
+                    logger.error(f"   错误类型: {type(e).__name__}")
+                    logger.error(f"   错误信息: {str(e)}")
+                    
                     # 失败时标记错误信息
                     post['summary_error'] = str(e)
+                    post['summary_error_type'] = type(e).__name__
                     post['summary'] = None
                     posts_with_summary.append(post)
         
-        logger.info(f"摘要生成完成: {len(posts_with_summary)}/{len(posts)}")
+        # 汇总报告
+        logger.info(f"\n{'='*60}")
+        logger.info(f"摘要生成完成: 总计 {len(posts)} 个帖子")
+        logger.info(f"  ✅ 成功: {success_count} 个")
+        logger.info(f"  ❌ 失败: {failed_count} 个")
+        if failed_count > 0:
+            logger.warning(f"失败的帖子:")
+            for post in posts_with_summary:
+                if post.get('summary_error'):
+                    post_id = post.get('id', 'unknown')
+                    post_url = post.get('permalink', f"https://reddit.com/comments/{post_id}")
+                    logger.warning(f"  - {post_id}: {post.get('title', '')[:50]}")
+                    logger.warning(f"    链接: {post_url}")
+                    logger.warning(f"    错误: {post.get('summary_error')}")
+        logger.info(f"{'='*60}\n")
+        
         return posts_with_summary
     
     def _generate_single_summary(
