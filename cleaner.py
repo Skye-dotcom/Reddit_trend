@@ -41,18 +41,33 @@ class DataCleaner:
             cleaned_posts = []
             
             for post in posts:
+                # 首先检查post是否为None
+                if post is None:
+                    logger.error(f"⚠️ 在 {key} 中发现None帖子，已跳过")
+                    self.stats['invalid'] += 1
+                    continue
+                
                 # 验证数据完整性
                 if not self._validate_post(post):
                     self.stats['invalid'] += 1
+                    logger.debug(f"帖子验证失败: {post.get('id', 'unknown')}")
                     continue
                 
                 # 质量过滤
                 if not self._quality_filter(post):
                     self.stats['filtered'] += 1
+                    logger.debug(f"帖子质量过滤: {post.get('id', 'unknown')} - {post.get('title', '')[:30]}")
                     continue
                 
                 # 数据清洗
                 cleaned_post = self._clean_post_data(post)
+                
+                # 二次验证清洗后的数据不是None
+                if cleaned_post is None:
+                    logger.error(f"⚠️ 清洗后帖子变成None: {post.get('id', 'unknown')}")
+                    self.stats['invalid'] += 1
+                    continue
+                
                 cleaned_posts.append(cleaned_post)
                 self.stats['valid'] += 1
             
