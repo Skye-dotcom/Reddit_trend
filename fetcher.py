@@ -87,8 +87,10 @@ class RedditDataFetcher:
             详细帖子列表
         """
         logger.info(f"开始获取 {len(post_ids)} 个帖子的详细信息...")
+        logger.info(f"帖子ID列表: {post_ids}")
         
         detailed_posts = []
+        failed_posts = []  # 记录失败的帖子
         
         with ThreadPoolExecutor(max_workers=max_workers) as executor:
             future_to_id = {
@@ -102,13 +104,27 @@ class RedditDataFetcher:
                     result = future.result()
                     if result:
                         detailed_posts.append(result)
-                        logger.debug(f"成功获取帖子 {post_id}")
+                        logger.info(f"✅ 成功获取帖子 {post_id} - https://reddit.com/comments/{post_id}")
+                    else:
+                        failed_posts.append(post_id)
+                        logger.error(f"❌ 帖子 {post_id} 返回None - https://reddit.com/comments/{post_id}")
                 except Exception as e:
-                    logger.error(f"获取帖子 {post_id} 详情失败: {e}")
+                    failed_posts.append(post_id)
+                    logger.error(f"❌ 获取帖子 {post_id} 详情失败 - https://reddit.com/comments/{post_id}")
+                    logger.error(f"   错误类型: {type(e).__name__}")
+                    logger.error(f"   错误信息: {str(e)}")
                 
                 time.sleep(0.2)  # 限流
         
-        logger.info(f"成功获取 {len(detailed_posts)}/{len(post_ids)} 个详细帖子")
+        # 汇总报告
+        logger.info(f"\n{'='*60}")
+        logger.info(f"详细信息获取完成: 成功 {len(detailed_posts)}/{len(post_ids)}")
+        if failed_posts:
+            logger.warning(f"失败的帖子ID: {failed_posts}")
+            for post_id in failed_posts:
+                logger.warning(f"  - https://reddit.com/comments/{post_id}")
+        logger.info(f"{'='*60}\n")
+        
         return detailed_posts
     
     def _fetch_single_detail(self, post_id: str, comment_depth: int) -> Dict[str, Any]:
