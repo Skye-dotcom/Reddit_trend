@@ -1,8 +1,8 @@
 # Reddit AI社区深度分析报告
 
-    **生成时间**: 2026-10-13 11:23:31  
-    **数据收集时间**: 2026-10-13T11:22:45.990842  
-    **分析耗时**: 45.8秒
+    **生成时间**: 2026-10-14 09:15:45  
+    **数据收集时间**: 2026-10-14T09:15:00.337973  
+    **分析耗时**: 45.3秒
 
 ---
 
@@ -13,7 +13,7 @@
 - **本月热门帖子**: 20 条
 - **高质量深度分析**: 5 条
 - **覆盖社区**: 6 个
-- **活跃作者**: 143 位
+- **活跃作者**: 161 位
 
 ---
 
@@ -21,46 +21,46 @@
 
 | 排名 | 标题 | 社区 | 分数 | 评论数 |
 |------|------|------|------|--------|
-| 1 | [Anyone feel like reverse-engineering CUDA?](https://reddit.com/r/LocalLLaMA/comments/1x4n6sg/anyone_feel_like_reverseengineering_cuda/) | r/LocalLLaMA | 425 | 199 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '2620b4e0-0085-90a1-ae75-ca589ae2dea3'} | | | |
-| 2 | [Anthropic is doing free publicity for GLM again](https://reddit.com/r/LocalLLaMA/comments/1x4ii8e/anthropic_is_doing_free_publicity_for_glm_again/) | r/LocalLLaMA | 558 | 113 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '7fc1a751-f7fa-9ed2-9cf6-9bd6291474d1'} | | | |
-| 3 | [Sipeed announces MaixStation, comparable to Strix Halo and D...](https://reddit.com/r/LocalLLaMA/comments/1x4r1o5/sipeed_announces_maixstation_comparable_to_strix/) | r/LocalLLaMA | 79 | 69 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '54f36e16-dc04-98fa-b435-b79ddc0c63d5'} | | | |
-| 4 | [Once again anthropic doing free marketing for open weight mo...](https://reddit.com/r/LocalLLaMA/comments/1x4cm73/once_again_anthropic_doing_free_marketing_for/) | r/LocalLLaMA | 604 | 216 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '25de69d7-4028-9a38-938e-0ed95ee35d8b'} | | | |
-| 5 | [It's been 2 months](https://reddit.com/r/LocalLLaMA/comments/1x4akj7/its_been_2_months/) | r/LocalLLaMA | 621 | 116 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': 'c88b29c2-74ac-9ec1-9b90-66f91e3063ae'} | | | |
-| 6 | [Based on advice from LocalLLama implemented a n+2 lookahead ...](https://reddit.com/r/LocalLLaMA/comments/1x4sit6/based_on_advice_from_localllama_implemented_a_n2/) | r/LocalLLaMA | 39 | 5 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': 'b4ed40be-ffe6-9c6b-a4a0-5d6312f1a6b1'} | | | |
-| 7 | [Intel "Crescent Island" GPU Gets D-Series Name, Supports Up ...](https://reddit.com/r/LocalLLaMA/comments/1x4g90u/intel_crescent_island_gpu_gets_dseries_name/) | r/LocalLLaMA | 286 | 132 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': 'b2cabe8b-460e-96a4-900b-676de0cc6503'} | | | |
-| 8 | [NVIDIA’s 9-Year-Old Tesla V100 Still Packs Some Inference Mu...](https://reddit.com/r/LocalLLaMA/comments/1x4mtzx/nvidias_9yearold_tesla_v100_still_packs_some/) | r/LocalLLaMA | 65 | 38 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': 'd8b92424-3b28-9e97-8fe7-3e2cf4be447e'} | | | |
-| 9 | [Qwen released QwenGyre - RL framework for training AI agents...](https://reddit.com/r/LocalLLaMA/comments/1x41myz/qwen_released_qwengyre_rl_framework_for_training/) | r/LocalLLaMA | 466 | 42 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '4469a3df-ae89-9c86-91b6-47d8883a9460'} | | | |
-| 10 | [openbmb/MiniCPM-V-4.7-35B-A3B](https://reddit.com/r/LocalLLaMA/comments/1x47taj/openbmbminicpmv4735ba3b/) | r/LocalLLaMA | 223 | 70 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '50bc7b42-bd1f-936f-98d6-433bf7eba377'} | | | |
-| 11 | [Hope the software support is good, but -> Intel Crescent Isl...](https://reddit.com/r/LocalLLaMA/comments/1x4n0bq/hope_the_software_support_is_good_but_intel/) | r/LocalLLaMA | 23 | 7 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': 'b31f4a3e-96df-9fe5-843e-9a0601e5da94'} | | | |
-| 12 | [In 2030 owning a gpu cluster will be seen the same as owning...](https://reddit.com/r/LocalLLaMA/comments/1x47d7k/in_2030_owning_a_gpu_cluster_will_be_seen_the/) | r/LocalLLaMA | 159 | 162 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '4f4183b0-02ef-90a7-beb1-c6cd661266e1'} | | | |
-| 13 | [SonicBoom: 52 tok/s decode on a laptop RTX 3050 \(llama.cpp: ...](https://reddit.com/r/LocalLLaMA/comments/1x4scub/sonicboom_52_toks_decode_on_a_laptop_rtx_3050/) | r/LocalLLaMA | 7 | 0 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': 'e795dfd1-c581-9f17-9e82-013685c35178'} | | | |
-| 14 | [Qwen 3.8 Flash Next Q3 S - Benchmark creation](https://reddit.com/r/LocalLLaMA/comments/1x4h1c2/qwen_38_flash_next_q3_s_benchmark_creation/) | r/LocalLLaMA | 41 | 22 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '15f1333b-d9d6-92cd-a970-eb952c99e6d6'} | | | |
-| 15 | [NVIDIA RTX 5080 24GB reportedly launching in Q1 2027, board ...](https://reddit.com/r/LocalLLaMA/comments/1x41n6l/nvidia_rtx_5080_24gb_reportedly_launching_in_q1/) | r/LocalLLaMA | 188 | 98 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': 'b71c1a97-84f9-97ee-ace7-d274d3a19f74'} | | | |
-| 16 | [open-source desktop agent app running its agents on local ol...](https://reddit.com/r/LocalLLaMA/comments/1x4r3ht/opensource_desktop_agent_app_running_its_agents/) | r/LocalLLaMA | 5 | 5 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '02fb1000-5604-93d6-8446-02ce43fb3ff6'} | | | |
-| 17 | [Running decision models: Picking quant, VRAM usage](https://reddit.com/r/LocalLLaMA/comments/1x4pbla/running_decision_models_picking_quant_vram_usage/) | r/LocalLLaMA | 8 | 10 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': 'aca938ac-9fb2-9217-ad6c-32eae03e8538'} | | | |
-| 18 | [Built a VRAM scheduler \(vramble\) to automate model swapping ...](https://reddit.com/r/LocalLLaMA/comments/1x4ocgn/built_a_vram_scheduler_vramble_to_automate_model/) | r/LocalLLaMA | 7 | 14 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': 'a88f8e3a-ce07-968e-8745-7f8b30d057fd'} | | | |
-| 19 | [Does 5060 Ti 16GB work well with AMD GPUs like 7900XTX for L...](https://reddit.com/r/LocalLLaMA/comments/1x4sk1y/does_5060_ti_16gb_work_well_with_amd_gpus_like/) | r/LocalLLaMA | 3 | 9 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': 'c690eac1-f101-9c7e-94f1-83b9ae84912b'} | | | |
-| 20 | [openbmb/MiniCPM-V-4.7-1B](https://reddit.com/r/LocalLLaMA/comments/1x492f9/openbmbminicpmv471b/) | r/LocalLLaMA | 55 | 10 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '741eaffa-1ee1-9f62-bee8-d84f5c780f2d'} | | | |
+| 1 | [Someone is running Qwen 27B at ~20 tok/s on a jailbroken PS5...](https://reddit.com/r/LocalLLaMA/comments/1x5ak2n/someone_is_running_qwen_27b_at_20_toks_on_a/) | r/LocalLLaMA | 705 | 85 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': 'dfcf3c75-74ea-9b4a-a00b-e484925e408b'} | | | |
+| 2 | [It's been too quiet on the other side of the Pacific](https://reddit.com/r/LocalLLaMA/comments/1x4u6vi/its_been_too_quiet_on_the_other_side_of_the/) | r/LocalLLaMA | 3258 | 456 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '25c3f97c-c4f0-9f68-9cc9-6e4137cc89d2'} | | | |
+| 3 | [Character.AI files for bankruptcy, to sell some assets to Di...](https://reddit.com/r/LocalLLaMA/comments/1x57zpx/characterai_files_for_bankruptcy_to_sell_some/) | r/LocalLLaMA | 350 | 107 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': 'bdec269f-75a5-9ab5-a3e7-e0dcf5466ddd'} | | | |
+| 4 | [Discover AI: A Learning Guide - 51 hands-on labs for learnin...](https://reddit.com/r/LocalLLaMA/comments/1x5ft3e/discover_ai_a_learning_guide_51_handson_labs_for/) | r/LocalLLaMA | 100 | 12 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '360b0a4f-b526-99fb-a601-0a75286c3e0d'} | | | |
+| 5 | [LiquidAI/LFM2.5-24B-A2B](https://reddit.com/r/LocalLLaMA/comments/1x52kco/liquidailfm2524ba2b/) | r/LocalLLaMA | 538 | 149 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '3aa436a2-25e3-9a05-82d4-40c7498c5cd7'} | | | |
+| 6 | ["New AI fake text generator may be too dangerous to release,...](https://reddit.com/r/LocalLLaMA/comments/1x52lsb/new_ai_fake_text_generator_may_be_too_dangerous/) | r/LocalLLaMA | 504 | 71 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': 'ae0cce48-0452-9585-b67c-245b7ce0fa82'} | | | |
+| 7 | [So this is how they do it --> RTX 5090, once a consumer gami...](https://reddit.com/r/LocalLLaMA/comments/1x5ki4t/so_this_is_how_they_do_it_rtx_5090_once_a/) | r/LocalLLaMA | 38 | 6 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '4ce88c13-0ad6-91ab-8965-82d768312136'} | | | |
+| 8 | [NVIDIA's Run:AI is now apparently under Apache-2.0 license.](https://reddit.com/r/LocalLLaMA/comments/1x5jnbf/nvidias_runai_is_now_apparently_under_apache20/) | r/LocalLLaMA | 34 | 1 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '8d0f0198-6278-9287-a6ae-ed13b03a0c91'} | | | |
+| 9 | [Moving a running model's layers between GPUs mid-reply \(8 ms...](https://reddit.com/r/LocalLLaMA/comments/1x5i7o9/moving_a_running_models_layers_between_gpus/) | r/LocalLLaMA | 43 | 13 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': 'cb7c590e-268f-9e07-9a9e-5b199527ee79'} | | | |
+| 10 | [Why AnythingLLM is moving from Ollama to Lemonade and llama....](https://reddit.com/r/LocalLLaMA/comments/1x5720r/why_anythingllm_is_moving_from_ollama_to_lemonade/) | r/LocalLLaMA | 194 | 37 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '82d100bb-0d29-9ace-ad71-ac3c4d4d50b9'} | | | |
+| 11 | [Is everyone in here buying up smart TVs now?](https://reddit.com/r/LocalLLaMA/comments/1x4wcnn/is_everyone_in_here_buying_up_smart_tvs_now/) | r/LocalLLaMA | 407 | 151 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '44eaa6a8-d4dd-90e0-9fa9-6c96ba56da09'} | | | |
+| 12 | [Tencent open-sourced Agent Memory and it runs 100% locally o...](https://reddit.com/r/LocalLLaMA/comments/1x50rgo/tencent_opensourced_agent_memory_and_it_runs_100/) | r/LocalLLaMA | 225 | 28 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': 'ce1d670d-361d-9fc6-bfd4-4250005a8945'} | | | |
+| 13 | [Updated list of official MCP servers \(300+\), well-known and ...](https://reddit.com/r/LocalLLaMA/comments/1x5j0p7/updated_list_of_official_mcp_servers_300/) | r/LocalLLaMA | 16 | 2 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '92319c5c-4c76-97df-97d5-d9d805332bf7'} | | | |
+| 14 | [Koboldcpp v1.123 released](https://reddit.com/r/LocalLLaMA/comments/1x5im9u/koboldcpp_v1123_released/) | r/LocalLLaMA | 12 | 0 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '329648bb-8e56-942f-8b8c-0c6d88e213a6'} | | | |
+| 15 | [Real downsides of Strata?](https://reddit.com/r/LocalLLaMA/comments/1x5cdht/real_downsides_of_strata/) | r/LocalLLaMA | 28 | 100 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': 'b2a3720a-110c-9125-aa38-e8f3b1b82963'} | | | |
+| 16 | [Claude CoWork for Local LLMs that runs on your Phone](https://reddit.com/r/LocalLLaMA/comments/1x5bawd/claude_cowork_for_local_llms_that_runs_on_your/) | r/LocalLLaMA | 31 | 14 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': 'a31da2be-2230-9511-8896-9bf7e5e95a9e'} | | | |
+| 17 | [4x 6000 Pro for the company](https://reddit.com/r/LocalLLaMA/comments/1x4yoqm/4x_6000_pro_for_the_company/) | r/LocalLLaMA | 131 | 120 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': 'd81dbc91-847a-9c76-92e1-6b4f2df53eac'} | | | |
+| 18 | [Train LoRA directly on Quantized GGUFs, no PyTorch, no Paren...](https://reddit.com/r/LocalLLaMA/comments/1x5j48s/train_lora_directly_on_quantized_ggufs_no_pytorch/) | r/LocalLLaMA | 8 | 7 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': 'bd5298bf-80a0-99d1-a781-4bc1ee722261'} | | | |
+| 19 | [Anyone feel like reverse-engineering CUDA?](https://reddit.com/r/LocalLLaMA/comments/1x4n6sg/anyone_feel_like_reverseengineering_cuda/) | r/LocalLLaMA | 825 | 318 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '61bb2bbf-b47a-9596-b81d-b436ab77fba5'} | | | |
+| 20 | [Mesa expands NPU capabilities with support for YOLOX with Py...](https://reddit.com/r/LocalLLaMA/comments/1x5e5gp/mesa_expands_npu_capabilities_with_support_for/) | r/LocalLLaMA | 15 | 0 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '442a6804-7b16-9476-beff-cc1f97fe5a0b'} | | | |
 
 ---
 
@@ -68,46 +68,45 @@
 
 | 排名 | 标题 | 社区 | 分数 | 评论数 |
 |------|------|------|------|--------|
-| 1 | [OpenAI being stingy with all those billions](https://reddit.com/r/OpenAI/comments/1x01ape/openai_being_stingy_with_all_those_billions/) | r/OpenAI | 10480 | 430 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '0884f1ad-037c-9b1f-bebf-0644cf0564bc'} | | | |
-| 2 | [Glad we’re focusing on the important things](https://reddit.com/r/singularity/comments/1x0xkzm/glad_were_focusing_on_the_important_things/) | r/singularity | 4715 | 1513 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': 'f145e819-9042-99a6-9c69-c71ccfb1e9f7'} | | | |
-| 3 | [The Internet is wild😂😂](https://reddit.com/r/artificial/comments/1x36tu3/the_internet_is_wild/) | r/artificial | 2947 | 338 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '608a278d-6e49-9440-a07d-08b9de01946e'} | | | |
-| 4 | [Claude Opus 5.5 decompiles a PS2-era game overnight, and hun...](https://reddit.com/r/artificial/comments/1x2tq6s/claude_opus_55_decompiles_a_ps2era_game_overnight/) | r/artificial | 2822 | 308 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '9a503969-6c0d-97a6-b682-aef5d0be7119'} | | | |
-| 5 | [One developer used Claude to reverse-engineer LG’s webOS med...](https://reddit.com/r/singularity/comments/1x18s0b/one_developer_used_claude_to_reverseengineer_lgs/) | r/singularity | 2552 | 195 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': 'e17ae394-79b0-98ec-807b-417c3ae7fd98'} | | | |
-| 6 | [What if we boarded planes pre-seated through the butthole](https://reddit.com/r/OpenAI/comments/1x12hee/what_if_we_boarded_planes_preseated_through_the/) | r/OpenAI | 2552 | 446 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '40406514-6de7-91d1-ab28-9faebd2344d6'} | | | |
-| 7 | [54gb vram for 35$](https://reddit.com/r/LocalLLaMA/comments/1wz6ist/54gb_vram_for_35/) | r/LocalLLaMA | 2115 | 388 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '4f903fc6-dcb6-9b6f-8210-1c5b5705b497'} | | | |
-| 8 | [Shock and awe — Creator of free Adobe clones unveils open-so...](https://reddit.com/r/singularity/comments/1x3daf9/shock_and_awe_creator_of_free_adobe_clones/) | r/singularity | 1967 | 452 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': 'ad699b18-ead3-95a7-8906-d83ac2ee9136'} | | | |
-| 9 | [Fields Medalist on the OpenAI Math Release](https://reddit.com/r/OpenAI/comments/1x2rufy/fields_medalist_on_the_openai_math_release/) | r/OpenAI | 1581 | 496 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': 'ddd62b31-c114-9083-a702-fa23ad4368d5'} | | | |
-| 10 | [Open-source Mac app that runs EmbeddingGemma 2 locally to se...](https://reddit.com/r/LocalLLaMA/comments/1x2eeds/opensource_mac_app_that_runs_embeddinggemma_2/) | r/LocalLLaMA | 1498 | 215 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '2564ad90-a21e-9dad-aab2-a24252ac2c21'} | | | |
-| 11 | ["this is where i stop calling AI a tool. a tool doesnt do in...](https://reddit.com/r/singularity/comments/1x02g1l/this_is_where_i_stop_calling_ai_a_tool_a_tool/) | r/singularity | 1479 | 572 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '258ecaa0-6b63-920e-a063-e620a88ad04d'} | | | |
-| 12 | [How did encountering "superintelligence" go for other specie...](https://reddit.com/r/OpenAI/comments/1x457ja/how_did_encountering_superintelligence_go_for/) | r/OpenAI | 1368 | 342 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '5cd0d177-b0f3-9c87-af81-ea45ba77c7d2'} | | | |
-| 13 | [Next time you solve unsolved math problems remember to ask f...](https://reddit.com/r/singularity/comments/1x0f7yn/next_time_you_solve_unsolved_math_problems/) | r/singularity | 1268 | 1133 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '6dd28d08-d669-9589-a61f-1a5f54ea0348'} | | | |
-| 14 | [Qualcomm CEO reveals AI companies want phones running 100-bi...](https://reddit.com/r/LocalLLaMA/comments/1x2z14s/qualcomm_ceo_reveals_ai_companies_want_phones/) | r/LocalLLaMA | 1255 | 581 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': 'c59d82b3-7b2b-9af8-b6ee-dd797a0f69f7'} | | | |
-| 15 | [Starting November 12th, 2026, abusive or cruel behavior towa...](https://reddit.com/r/singularity/comments/1x0x0o8/starting_november_12th_2026_abusive_or_cruel/) | r/singularity | 1242 | 766 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '6ffdae8a-41cb-9276-b76a-b1767439f147'} | | | |
-| 16 | [Andrej Karpathy breaks down the capability gap](https://reddit.com/r/singularity/comments/1x3gsc4/andrej_karpathy_breaks_down_the_capability_gap/) | r/singularity | 1215 | 364 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '68086dca-5281-906e-ba59-9d8ad8a6c108'} | | | |
-| 17 | [big or small?](https://reddit.com/r/LocalLLaMA/comments/1x29hx8/big_or_small/) | r/LocalLLaMA | 1156 | 223 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '346cd11f-81d4-93f4-95e8-a7616787f070'} | | | |
-| 18 | [Europe finally takes the lead](https://reddit.com/r/singularity/comments/1wze844/europe_finally_takes_the_lead/) | r/singularity | 1121 | 53 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': 'b6c3a20b-f416-91f8-800b-3e4509322d2d'} | | | |
-| 19 | [Tom was the first layoff due to AI](https://reddit.com/r/singularity/comments/1x0ypnz/tom_was_the_first_layoff_due_to_ai/) | r/singularity | 1095 | 32 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '2e528481-a182-9be3-9f39-6ef38bdafa18'} | | | |
-| 20 | [The man is smooth. We’re not ready for fake videos](https://reddit.com/r/OpenAI/comments/1x2eq0n/the_man_is_smooth_were_not_ready_for_fake_videos/) | r/OpenAI | 1079 | 226 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '65896c62-a681-9c15-8d88-6f439e93eb02'} | | | |
+| 1 | [OpenAI being stingy with all those billions](https://reddit.com/r/OpenAI/comments/1x01ape/openai_being_stingy_with_all_those_billions/) | r/OpenAI | 10555 | 431 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '08b27cee-fedf-901d-85d2-a7c32ee0761e'} | | | |
+| 2 | [Glad we’re focusing on the important things](https://reddit.com/r/singularity/comments/1x0xkzm/glad_were_focusing_on_the_important_things/) | r/singularity | 4740 | 1522 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '4f5de724-90e3-920c-84ce-d0b1d42f80f6'} | | | |
+| 3 | [It's been too quiet on the other side of the Pacific](https://reddit.com/r/LocalLLaMA/comments/1x4u6vi/its_been_too_quiet_on_the_other_side_of_the/) | r/LocalLLaMA | 3256 | 456 |
+| 4 | [Claude Opus 5.5 decompiles a PS2-era game overnight, and hun...](https://reddit.com/r/artificial/comments/1x2tq6s/claude_opus_55_decompiles_a_ps2era_game_overnight/) | r/artificial | 3052 | 318 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '22b7db42-2740-9d3b-b941-7941d44fb584'} | | | |
+| 5 | [The Internet is wild😂😂](https://reddit.com/r/artificial/comments/1x36tu3/the_internet_is_wild/) | r/artificial | 2994 | 341 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': 'bed28e12-b439-9338-834b-a4fce2d2b2c3'} | | | |
+| 6 | [One developer used Claude to reverse-engineer LG’s webOS med...](https://reddit.com/r/singularity/comments/1x18s0b/one_developer_used_claude_to_reverseengineer_lgs/) | r/singularity | 2659 | 204 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '67945c89-74d3-922c-bc0d-ce08a95e9b2d'} | | | |
+| 7 | [What if we boarded planes pre-seated through the butthole](https://reddit.com/r/OpenAI/comments/1x12hee/what_if_we_boarded_planes_preseated_through_the/) | r/OpenAI | 2571 | 450 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '34665eba-31c1-9434-a7be-1ce73063d186'} | | | |
+| 8 | [Shock and awe — Creator of free Adobe clones unveils open-so...](https://reddit.com/r/singularity/comments/1x3daf9/shock_and_awe_creator_of_free_adobe_clones/) | r/singularity | 2029 | 453 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '95b5e4e4-0fb0-9aa0-abd8-b2d088e9a623'} | | | |
+| 9 | [Fields Medalist on the OpenAI Math Release](https://reddit.com/r/OpenAI/comments/1x2rufy/fields_medalist_on_the_openai_math_release/) | r/OpenAI | 1604 | 507 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': 'e5656e5a-90c5-989f-a760-e561b6a7907b'} | | | |
+| 10 | [Open-source Mac app that runs EmbeddingGemma 2 locally to se...](https://reddit.com/r/LocalLLaMA/comments/1x2eeds/opensource_mac_app_that_runs_embeddinggemma_2/) | r/LocalLLaMA | 1572 | 221 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': 'ac4ad6ad-4a37-9ef6-889e-10de52eae1a6'} | | | |
+| 11 | ["this is where i stop calling AI a tool. a tool doesnt do in...](https://reddit.com/r/singularity/comments/1x02g1l/this_is_where_i_stop_calling_ai_a_tool_a_tool/) | r/singularity | 1482 | 577 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': 'af661176-7a24-9252-a9f2-4ad15ed7e225'} | | | |
+| 12 | [Qualcomm CEO reveals AI companies want phones running 100-bi...](https://reddit.com/r/LocalLLaMA/comments/1x2z14s/qualcomm_ceo_reveals_ai_companies_want_phones/) | r/LocalLLaMA | 1288 | 586 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': 'de177cfd-bfe9-9e7c-8318-a4ad8c75d111'} | | | |
+| 13 | [Next time you solve unsolved math problems remember to ask f...](https://reddit.com/r/singularity/comments/1x0f7yn/next_time_you_solve_unsolved_math_problems/) | r/singularity | 1277 | 1139 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': 'ea4b632c-bcc5-9b67-942b-4fca95c5c13b'} | | | |
+| 14 | [Starting November 12th, 2026, abusive or cruel behavior towa...](https://reddit.com/r/singularity/comments/1x0x0o8/starting_november_12th_2026_abusive_or_cruel/) | r/singularity | 1254 | 776 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': 'ef10ab2b-dde0-99d4-b33b-99c9313af99d'} | | | |
+| 15 | [Andrej Karpathy breaks down the capability gap](https://reddit.com/r/singularity/comments/1x3gsc4/andrej_karpathy_breaks_down_the_capability_gap/) | r/singularity | 1253 | 372 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '80936371-04cb-97a7-8f93-27584f948d77'} | | | |
+| 16 | [big or small?](https://reddit.com/r/LocalLLaMA/comments/1x29hx8/big_or_small/) | r/LocalLLaMA | 1164 | 224 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '6496447c-f0c8-99b8-893c-d86c7f4454bb'} | | | |
+| 17 | [Google's Gemini 4 Argon autonomously built an entire photore...](https://reddit.com/r/singularity/comments/1x53gba/googles_gemini_4_argon_autonomously_built_an/) | r/singularity | 1156 | 150 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '082767bb-398a-96c6-bc3f-209b2215ad9c'} | | | |
+| 18 | [Tom was the first layoff due to AI](https://reddit.com/r/singularity/comments/1x0ypnz/tom_was_the_first_layoff_due_to_ai/) | r/singularity | 1131 | 33 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '66e6b40c-939d-9984-bcf8-cc7d85ee8fed'} | | | |
+| 19 | [The man is smooth. We’re not ready for fake videos](https://reddit.com/r/OpenAI/comments/1x2eq0n/the_man_is_smooth_were_not_ready_for_fake_videos/) | r/OpenAI | 1123 | 227 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '78a1fdbe-3136-97cd-b82b-43d2703d42c8'} | | | |
+| 20 | [Building a 4x R9700 setup for a 10 person startup](https://reddit.com/r/LocalLLaMA/comments/1x2u742/building_a_4x_r9700_setup_for_a_10_person_startup/) | r/LocalLLaMA | 1118 | 428 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '1f539d05-a7bd-9b50-9ad5-39e26912737b'} | | | |
 
 ---
 
@@ -115,42 +114,42 @@
 
 | 排名 | 标题 | 社区 | 分数 | 评论数 |
 |------|------|------|------|--------|
-| 1 | [Ppl on this sub basically every other hour](https://reddit.com/r/singularity/comments/1wiqg8i/ppl_on_this_sub_basically_every_other_hour/) | r/singularity | 10709 | 239 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '87404713-a078-9249-94ff-d06fd41c542d'} | | | |
-| 2 | [OpenAI being stingy with all those billions](https://reddit.com/r/OpenAI/comments/1x01ape/openai_being_stingy_with_all_those_billions/) | r/OpenAI | 10482 | 430 |
-| 3 | [We Must Pace the Frontier](https://reddit.com/r/singularity/comments/1wgecxn/we_must_pace_the_frontier/) | r/singularity | 5960 | 159 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': 'acdf4b4e-a63b-9340-8d4a-c2aea1ca7b9f'} | | | |
-| 4 | [AI is getting out of hand.](https://reddit.com/r/OpenAI/comments/1wks0ip/ai_is_getting_out_of_hand/) | r/OpenAI | 5691 | 279 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '70c5f5eb-203e-95f8-91c1-d479e09f1b7e'} | | | |
-| 5 | [PewDiePie getting banned twice by OpenAI while making a loca...](https://reddit.com/r/LocalLLaMA/comments/1wymgu6/pewdiepie_getting_banned_twice_by_openai_while/) | r/LocalLLaMA | 5216 | 511 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '6dbb0ebc-1ff5-9559-ab96-5deb3699a2e5'} | | | |
-| 6 | [Glad we’re focusing on the important things](https://reddit.com/r/singularity/comments/1x0xkzm/glad_were_focusing_on_the_important_things/) | r/singularity | 4714 | 1513 |
-| 7 | [Poor lil guy](https://reddit.com/r/OpenAI/comments/1whseg2/poor_lil_guy/) | r/OpenAI | 4315 | 158 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '9084458c-7f6b-983f-af66-eb54d2098697'} | | | |
-| 8 | [Sir, Dario just dropped opus 5.5 and it beats GPT-6 astra at...](https://reddit.com/r/OpenAI/comments/1wnq2cb/sir_dario_just_dropped_opus_55_and_it_beats_gpt6/) | r/OpenAI | 3983 | 460 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': 'abc78774-0a06-9c2f-a661-1ef008db9f41'} | | | |
-| 9 | [PewDiePie is trying to distill GPT-Sol](https://reddit.com/r/OpenAI/comments/1ww3rq7/pewdiepie_is_trying_to_distill_gptsol/) | r/OpenAI | 3949 | 523 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '5cdaabd6-872e-97d5-8888-d6d5471e17ae'} | | | |
-| 10 | [Someone using Opus 5.5 ports the entire game of Minecraft in...](https://reddit.com/r/singularity/comments/1wtiubh/someone_using_opus_55_ports_the_entire_game_of/) | r/singularity | 3923 | 395 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '95445df3-8548-9b01-b908-866caba609cc'} | | | |
-| 11 | [Trump reiterates no slowdown](https://reddit.com/r/singularity/comments/1wg4cjk/trump_reiterates_no_slowdown/) | r/singularity | 3720 | 1453 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': 'f528d32c-927b-9f89-b615-bad75515558e'} | | | |
-| 12 | [I literally built the Jev architecture one year back and com...](https://reddit.com/r/LocalLLaMA/comments/1wijo3e/i_literally_built_the_jev_architecture_one_year/) | r/LocalLLaMA | 3637 | 345 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '0e60c833-313a-9684-b475-c71c4e40b9b5'} | | | |
-| 13 | [Claude Opus 5.5 created this in 18 hours](https://reddit.com/r/singularity/comments/1wx73vr/claude_opus_55_created_this_in_18_hours/) | r/singularity | 3464 | 665 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '1b9c933e-1b53-9573-8ddf-5ca0199b25f3'} | | | |
-| 14 | [I used Astra to build a Yu-Gi-Oh! AR app for SPECS](https://reddit.com/r/OpenAI/comments/1wpg5k8/i_used_astra_to_build_a_yugioh_ar_app_for_specs/) | r/OpenAI | 3384 | 148 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '2d3ee956-de4d-9737-9c8c-e4293a7a06e7'} | | | |
-| 15 | [Google releasing their most powerful model yet](https://reddit.com/r/singularity/comments/1wv0jvd/google_releasing_their_most_powerful_model_yet/) | r/singularity | 3157 | 94 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '8b99829e-654a-93be-8664-69ebdd2bcf0e'} | | | |
-| 16 | [From Japanese twitter](https://reddit.com/r/singularity/comments/1wgok3w/from_japanese_twitter/) | r/singularity | 3132 | 175 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': 'abd41f30-2d63-9495-8ed5-91ad14937c92'} | | | |
-| 17 | [The Internet is wild😂😂](https://reddit.com/r/artificial/comments/1x36tu3/the_internet_is_wild/) | r/artificial | 2947 | 338 |
-| 18 | [Claude Opus 5.5 decompiles a PS2-era game overnight, and hun...](https://reddit.com/r/artificial/comments/1x2tq6s/claude_opus_55_decompiles_a_ps2era_game_overnight/) | r/artificial | 2820 | 308 |
-| 19 | [Q: Who should be held accountable when the AI agents commit ...](https://reddit.com/r/OpenAI/comments/1wu20hr/q_who_should_be_held_accountable_when_the_ai/) | r/OpenAI | 2777 | 937 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '0b652869-ee17-962e-97ca-66ac4892eee5'} | | | |
-| 20 | [I truly think every major AI lab is purposefully making fear...](https://reddit.com/r/LocalLLaMA/comments/1wk979c/i_truly_think_every_major_ai_lab_is_purposefully/) | r/LocalLLaMA | 2750 | 363 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '260401a3-7781-95b3-b29a-356f3682f952'} | | | |
+| 1 | [Ppl on this sub basically every other hour](https://reddit.com/r/singularity/comments/1wiqg8i/ppl_on_this_sub_basically_every_other_hour/) | r/singularity | 10709 | 240 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '07e97de6-5996-9598-8505-6a81e8991535'} | | | |
+| 2 | [OpenAI being stingy with all those billions](https://reddit.com/r/OpenAI/comments/1x01ape/openai_being_stingy_with_all_those_billions/) | r/OpenAI | 10560 | 431 |
+| 3 | [We Must Pace the Frontier](https://reddit.com/r/singularity/comments/1wgecxn/we_must_pace_the_frontier/) | r/singularity | 5962 | 161 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '7d9155c7-d45d-9dfb-a143-a4b2cba25c96'} | | | |
+| 4 | [AI is getting out of hand.](https://reddit.com/r/OpenAI/comments/1wks0ip/ai_is_getting_out_of_hand/) | r/OpenAI | 5689 | 279 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '85b2a96e-991a-9f45-99a8-e43190e5c16f'} | | | |
+| 5 | [PewDiePie getting banned twice by OpenAI while making a loca...](https://reddit.com/r/LocalLLaMA/comments/1wymgu6/pewdiepie_getting_banned_twice_by_openai_while/) | r/LocalLLaMA | 5227 | 512 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': 'be97dcd7-977b-9361-a8c5-0cb87653555e'} | | | |
+| 6 | [Glad we’re focusing on the important things](https://reddit.com/r/singularity/comments/1x0xkzm/glad_were_focusing_on_the_important_things/) | r/singularity | 4741 | 1522 |
+| 7 | [Poor lil guy](https://reddit.com/r/OpenAI/comments/1whseg2/poor_lil_guy/) | r/OpenAI | 4317 | 156 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': 'ef9bcd89-ddb4-9995-8d24-0d9ac930ce3e'} | | | |
+| 8 | [Sir, Dario just dropped opus 5.5 and it beats GPT-6 astra at...](https://reddit.com/r/OpenAI/comments/1wnq2cb/sir_dario_just_dropped_opus_55_and_it_beats_gpt6/) | r/OpenAI | 3993 | 461 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '429752fc-81c1-9e11-a074-9a01752fd3af'} | | | |
+| 9 | [PewDiePie is trying to distill GPT-Sol](https://reddit.com/r/OpenAI/comments/1ww3rq7/pewdiepie_is_trying_to_distill_gptsol/) | r/OpenAI | 3942 | 524 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': 'db2dc24c-7ac5-9c2c-b9a3-d7058663f76a'} | | | |
+| 10 | [Someone using Opus 5.5 ports the entire game of Minecraft in...](https://reddit.com/r/singularity/comments/1wtiubh/someone_using_opus_55_ports_the_entire_game_of/) | r/singularity | 3928 | 395 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '9406285a-d138-99ac-91da-e82271515a93'} | | | |
+| 11 | [Trump reiterates no slowdown](https://reddit.com/r/singularity/comments/1wg4cjk/trump_reiterates_no_slowdown/) | r/singularity | 3716 | 1453 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '3baea98e-0da3-91f2-92d9-70ed0709223c'} | | | |
+| 12 | [I literally built the Jev architecture one year back and com...](https://reddit.com/r/LocalLLaMA/comments/1wijo3e/i_literally_built_the_jev_architecture_one_year/) | r/LocalLLaMA | 3643 | 345 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': 'a18967ac-c996-982a-b58f-c62918648511'} | | | |
+| 13 | [Claude Opus 5.5 created this in 18 hours](https://reddit.com/r/singularity/comments/1wx73vr/claude_opus_55_created_this_in_18_hours/) | r/singularity | 3475 | 666 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '126e77b2-8664-9401-92fc-c3816bbf3728'} | | | |
+| 14 | [I used Astra to build a Yu-Gi-Oh! AR app for SPECS](https://reddit.com/r/OpenAI/comments/1wpg5k8/i_used_astra_to_build_a_yugioh_ar_app_for_specs/) | r/OpenAI | 3379 | 148 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': 'bab92d85-643b-91e2-8162-d8bd206a8520'} | | | |
+| 15 | [Google releasing their most powerful model yet](https://reddit.com/r/singularity/comments/1wv0jvd/google_releasing_their_most_powerful_model_yet/) | r/singularity | 3162 | 94 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '5049a2c5-3767-926c-8233-bc6964893f38'} | | | |
+| 16 | [From Japanese twitter](https://reddit.com/r/singularity/comments/1wgok3w/from_japanese_twitter/) | r/singularity | 3128 | 175 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '9715d833-0e9b-952c-92eb-ef35fbb5e802'} | | | |
+| 17 | [Claude Opus 5.5 decompiles a PS2-era game overnight, and hun...](https://reddit.com/r/artificial/comments/1x2tq6s/claude_opus_55_decompiles_a_ps2era_game_overnight/) | r/artificial | 3050 | 318 |
+| 18 | [The Internet is wild😂😂](https://reddit.com/r/artificial/comments/1x36tu3/the_internet_is_wild/) | r/artificial | 2998 | 341 |
+| 19 | [Q: Who should be held accountable when the AI agents commit ...](https://reddit.com/r/OpenAI/comments/1wu20hr/q_who_should_be_held_accountable_when_the_ai/) | r/OpenAI | 2782 | 937 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '4c951468-a343-9a82-9e11-bd4fe9013807'} | | | |
+| 20 | [I truly think every major AI lab is purposefully making fear...](https://reddit.com/r/LocalLLaMA/comments/1wk979c/i_truly_think_every_major_ai_lab_is_purposefully/) | r/LocalLLaMA | 2754 | 365 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': 'dc1b84b1-7594-985e-a699-e80464223c88'} | | | |
 
 ---
 
@@ -158,16 +157,16 @@
 
 | 排名 | 标题 | 社区 | 质量评分 | 分数 | 评论数 |
 |------|------|------|----------|------|--------|
-| 1 | [PewDiePie getting banned twice by OpenAI while mak...](https://reddit.com/r/LocalLLaMA/comments/1wymgu6/pewdiepie_getting_banned_twice_by_openai_while/) | r/LocalLLaMA | 70.66 | 5216 | 511 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': 'aca449ec-bc42-95bc-9654-93b0266e83d4'} | | | | |
-| 2 | [Q: Who should be held accountable when the AI agen...](https://reddit.com/r/OpenAI/comments/1wu20hr/q_who_should_be_held_accountable_when_the_ai/) | r/OpenAI | 73.27 | 2777 | 937 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '080949fa-1cd4-91c8-8849-2e1e33be33e3'} | | | | |
-| 3 | [OpenAI being stingy with all those billions](https://reddit.com/r/OpenAI/comments/1x01ape/openai_being_stingy_with_all_those_billions/) | r/OpenAI | 70.61 | 10482 | 430 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '58058788-03c8-9741-af62-c5a3ee042a82'} | | | | |
-| 4 | [After researchers discovered a "pain" signal insid...](https://reddit.com/r/OpenAI/comments/1wuy2x1/after_researchers_discovered_a_pain_signal_inside/) | r/OpenAI | 70.93 | 2432 | 2341 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '7a31d809-934f-90c3-92d6-92f57e43cc41'} | | | | |
-| 5 | [Google DeepMind’s AI weather model picked up Hurri...](https://reddit.com/r/singularity/comments/1x3unnr/google_deepminds_ai_weather_model_picked_up/) | r/singularity | 68.70 | 1070 | 114 |
-| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '9c14cd80-dddf-9dc6-bb57-e78166cd43a1'} | | | | |
+| 1 | [OpenAI is reportedly scrambling to make its next f...](https://reddit.com/r/singularity/comments/1x5ljvv/openai_is_reportedly_scrambling_to_make_its_next/) | r/singularity | 74.04 | 34 | 4 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '909c1d32-7e6b-9743-9311-42692cf1a5ba'} | | | | |
+| 2 | [Google's Gemini 4 Argon autonomously built an enti...](https://reddit.com/r/singularity/comments/1x53gba/googles_gemini_4_argon_autonomously_built_an/) | r/singularity | 71.45 | 1159 | 150 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '35bc2ae5-2927-9373-a3ef-a2b0494015c6'} | | | | |
+| 3 | [PewDiePie getting banned twice by OpenAI while mak...](https://reddit.com/r/LocalLLaMA/comments/1wymgu6/pewdiepie_getting_banned_twice_by_openai_while/) | r/LocalLLaMA | 70.67 | 5227 | 512 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '68c8ba82-ab2c-957f-a458-1606db0293a5'} | | | | |
+| 4 | [Q: Who should be held accountable when the AI agen...](https://reddit.com/r/OpenAI/comments/1wu20hr/q_who_should_be_held_accountable_when_the_ai/) | r/OpenAI | 73.27 | 2782 | 937 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '922136bc-57a4-93ee-a401-dcacff455a02'} | | | | |
+| 5 | [After researchers discovered a "pain" signal insid...](https://reddit.com/r/OpenAI/comments/1wuy2x1/after_researchers_discovered_a_pain_signal_inside/) | r/OpenAI | 70.93 | 2435 | 2341 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid\_request\_error', 'param': None, 'code': 'invalid\_api\_key'}, 'request\_id': '239d2b5b-4aba-983a-a0b8-5bb98dee5e80'} | | | | |
 
 ---
 
@@ -176,26 +175,26 @@
 | 关键词 | 出现频率 | 趋势级别 |
 |--------|----------|----------|
 | ai | 365 | 🔥 热门 |
-| model | 150 | 🔥 热门 |
-| agent | 90 | 🔥 热门 |
-| openai | 54 | 🔥 热门 |
-| gpt | 49 | 🔥 热门 |
-| llm | 47 | 📈 上升 |
-| claude | 43 | 📈 上升 |
-| local | 33 | 📈 上升 |
-| rag | 27 | 📈 上升 |
-| anthropic | 25 | 📈 上升 |
-| training | 25 | ➡️ 一般 |
-| langchain | 23 | ➡️ 一般 |
-| chatgpt | 20 | ➡️ 一般 |
-| embedding | 12 | ➡️ 一般 |
-| prompt | 12 | ➡️ 一般 |
+| model | 128 | 🔥 热门 |
+| agent | 89 | 🔥 热门 |
+| openai | 65 | 🔥 热门 |
+| llm | 48 | 🔥 热门 |
+| gpt | 46 | 📈 上升 |
+| claude | 44 | 📈 上升 |
+| local | 40 | 📈 上升 |
+| anthropic | 30 | 📈 上升 |
+| rag | 22 | 📈 上升 |
+| training | 20 | ➡️ 一般 |
+| langchain | 20 | ➡️ 一般 |
+| prompt | 19 | ➡️ 一般 |
+| chatgpt | 17 | ➡️ 一般 |
+| machine learning | 12 | ➡️ 一般 |
 
 ---
 
 # 🤖 AI智能深度分析
 
-分析失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}, 'request_id': '84b9bf35-fb79-99a6-a84f-3b750ecd4680'}
+分析失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}, 'request_id': 'dc940698-2dd4-9fd6-81cf-4e41f026bd62'}
 
 ---
 
@@ -203,12 +202,12 @@
 
 ### 社区表现统计
 
-- **r/singularity**: 119个帖子, 平均分数 1164.0
-- **r/OpenAI**: 117个帖子, 平均分数 890.1
-- **r/LocalLLaMA**: 150个帖子, 平均分数 654.1
-- **r/artificial**: 74个帖子, 平均分数 456.4
-- **r/MachineLearning**: 134个帖子, 平均分数 66.9
-- **r/LangChain**: 82个帖子, 平均分数 8.6
+- **r/singularity**: 117个帖子, 平均分数 1185.7
+- **r/LocalLLaMA**: 150个帖子, 平均分数 711.6
+- **r/OpenAI**: 116个帖子, 平均分数 885.5
+- **r/artificial**: 74个帖子, 平均分数 417.2
+- **r/MachineLearning**: 138个帖子, 平均分数 65.7
+- **r/LangChain**: 84个帖子, 平均分数 8.1
 
 
 ---
