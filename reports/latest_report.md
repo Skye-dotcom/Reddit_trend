@@ -1,8 +1,8 @@
 # Reddit AI社区深度分析报告
 
-    **生成时间**: 2026-10-30 10:42:44  
-    **数据收集时间**: 2026-10-30T10:41:52.993264  
-    **分析耗时**: 51.9秒
+    **生成时间**: 2026-10-31 10:10:24  
+    **数据收集时间**: 2026-10-31T10:09:25.439380  
+    **分析耗时**: 58.6秒
 
 ---
 
@@ -13,7 +13,7 @@
 - **本月热门帖子**: 20 条
 - **高质量深度分析**: 5 条
 - **覆盖社区**: 6 个
-- **活跃作者**: 161 位
+- **活跃作者**: 156 位
 
 ---
 
@@ -21,45 +21,45 @@
 
 | 排名 | 标题 | 社区 | 分数 | 评论数 |
 |------|------|------|------|--------|
-| 1 | [AMA Announcement: MOSS, the Team Behind MOSS-Image, MOSS-TTS...](https://reddit.com/r/LocalLLaMA/comments/1xhouci/ama_announcement_moss_the_team_behind_mossimage/) | r/LocalLLaMA | 81 | 16 |
+| 1 | [We’re MOSS, the team behind MOSS-Image, MOSS-TTS, and more —...](https://reddit.com/r/LocalLLaMA/comments/1xjhpn9/were_moss_the_team_behind_mossimage_mosstts_and/) | r/LocalLLaMA | 235 | 204 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 2 | [\[Bi-Weekly Megathread\] Project Showcase](https://reddit.com/r/LocalLLaMA/comments/1x9yg86/biweekly_megathread_project_showcase/) | r/LocalLLaMA | 42 | 146 |
+| 2 | [\[Bi-Weekly Megathread\] Project Showcase](https://reddit.com/r/LocalLLaMA/comments/1x9yg86/biweekly_megathread_project_showcase/) | r/LocalLLaMA | 47 | 153 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 3 | [Sam Altman: “Local inference is a terrible allocation of sca...](https://reddit.com/r/LocalLLaMA/comments/1xizbq1/sam_altman_local_inference_is_a_terrible/) | r/LocalLLaMA | 4095 | 1869 |
+| 3 | [Fable 5.gguf when?](https://reddit.com/r/LocalLLaMA/comments/1xjwtrv/fable_5gguf_when/) | r/LocalLLaMA | 1124 | 243 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 4 | [Reddit will force everyone to log in](https://reddit.com/r/LocalLLaMA/comments/1xj2pnp/reddit_will_force_everyone_to_log_in/) | r/LocalLLaMA | 385 | 157 |
+| 4 | [First memory, storage, and now PCBsss: AI Boom Triggers Mass...](https://reddit.com/r/LocalLLaMA/comments/1xk17m0/first_memory_storage_and_now_pcbsss_ai_boom/) | r/LocalLLaMA | 106 | 22 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 5 | [Arguably unethical behavior from Cohere](https://reddit.com/r/LocalLLaMA/comments/1xix61q/arguably_unethical_behavior_from_cohere/) | r/LocalLLaMA | 419 | 135 |
+| 5 | [Another reason to own your own compute. Your account may get...](https://reddit.com/r/LocalLLaMA/comments/1xjgfuv/another_reason_to_own_your_own_compute_your/) | r/LocalLLaMA | 1504 | 356 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 6 | [The RTX 5080 Has Been Removed From NVIDIA's Official Marketp...](https://reddit.com/r/LocalLLaMA/comments/1xj9xjh/the_rtx_5080_has_been_removed_from_nvidias/) | r/LocalLLaMA | 58 | 18 |
+| 6 | [Lawyer with too many GPUs, part 3: DeepSeek-V4.1-Flash on 2x...](https://reddit.com/r/LocalLLaMA/comments/1xk20x5/lawyer_with_too_many_gpus_part_3_deepseekv41flash/) | r/LocalLLaMA | 46 | 12 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 7 | [Mistral Large 4 \(Le Chonk\) is now open weight](https://reddit.com/r/LocalLLaMA/comments/1xil3qy/mistral_large_4_le_chonk_is_now_open_weight/) | r/LocalLLaMA | 1229 | 204 |
+| 7 | [AMD reportedly plans another Radeon GPU price increase in No...](https://reddit.com/r/LocalLLaMA/comments/1xjrery/amd_reportedly_plans_another_radeon_gpu_price/) | r/LocalLLaMA | 122 | 44 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 8 | [Complete Dell workstation with 96GB NVIDIA GPU may cost less...](https://reddit.com/r/LocalLLaMA/comments/1xj7g31/complete_dell_workstation_with_96gb_nvidia_gpu/) | r/LocalLLaMA | 56 | 8 |
+| 8 | [vLLM now has PLE disk offload support on nightly](https://reddit.com/r/LocalLLaMA/comments/1xjpbcg/vllm_now_has_ple_disk_offload_support_on_nightly/) | r/LocalLLaMA | 139 | 14 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 9 | [Guys I think I found our GPUs](https://reddit.com/r/LocalLLaMA/comments/1xj4qi0/guys_i_think_i_found_our_gpus/) | r/LocalLLaMA | 79 | 34 |
+| 9 | [Koboldcpp v1.124 released](https://reddit.com/r/LocalLLaMA/comments/1xk1vyk/koboldcpp_v1124_released/) | r/LocalLLaMA | 25 | 1 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 10 | [Apsara conference: Qwen4 next week](https://reddit.com/r/LocalLLaMA/comments/1xif6lf/apsara_conference_qwen4_next_week/) | r/LocalLLaMA | 2199 | 461 |
+| 10 | [microsoft/Mage-VL-Cowork · Hugging Face](https://reddit.com/r/LocalLLaMA/comments/1xk6blw/microsoftmagevlcowork_hugging_face/) | r/LocalLLaMA | 10 | 0 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 11 | [Release: Swift 1.5 Flash Next - Heretic v2 - ReverseEngineer](https://reddit.com/r/LocalLLaMA/comments/1xix35p/release_swift_15_flash_next_heretic_v2/) | r/LocalLLaMA | 168 | 46 |
+| 11 | [So uh...where are we on uncensored / NSFW audio models?](https://reddit.com/r/LocalLLaMA/comments/1xjn911/so_uhwhere_are_we_on_uncensored_nsfw_audio_models/) | r/LocalLLaMA | 172 | 62 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 12 | [I think local AI cost me a job](https://reddit.com/r/LocalLLaMA/comments/1xils4t/i_think_local_ai_cost_me_a_job/) | r/LocalLLaMA | 530 | 360 |
+| 12 | [Qwen3.8-Flash-Next on 2x RTX 5090 with 504 tok/s decode: QEn...](https://reddit.com/r/LocalLLaMA/comments/1xjx0ez/qwen38flashnext_on_2x_rtx_5090_with_504_toks/) | r/LocalLLaMA | 50 | 26 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 13 | [Kokoro can now clone any voice with just ~600 MB of extra VR...](https://reddit.com/r/LocalLLaMA/comments/1xiplj7/kokoro_can_now_clone_any_voice_with_just_600_mb/) | r/LocalLLaMA | 211 | 47 |
+| 13 | [Sam Altman: “Local inference is a terrible allocation of sca...](https://reddit.com/r/LocalLLaMA/comments/1xizbq1/sam_altman_local_inference_is_a_terrible/) | r/LocalLLaMA | 5816 | 2614 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 14 | [Why you can't trust cloud API endpoints: 40 days of coding-a...](https://reddit.com/r/LocalLLaMA/comments/1xiqw9i/why_you_cant_trust_cloud_api_endpoints_40_days_of/) | r/LocalLLaMA | 179 | 94 |
+| 14 | [Introducing DeepSeek-V4.1-Flash-1017 Dynamic v3.1 Unsloth GG...](https://reddit.com/r/LocalLLaMA/comments/1xjfuqh/introducing_deepseekv41flash1017_dynamic_v31/) | r/LocalLLaMA | 364 | 102 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 15 | [Metatron v1: NVIDIA's Unified Humanoid Control Policy for th...](https://reddit.com/r/LocalLLaMA/comments/1xj8kzn/metatron_v1_nvidias_unified_humanoid_control/) | r/LocalLLaMA | 15 | 5 |
+| 15 | [Do you have any opinions that generally go against /r/LocalL...](https://reddit.com/r/LocalLLaMA/comments/1xjltn3/do_you_have_any_opinions_that_generally_go/) | r/LocalLLaMA | 177 | 305 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 16 | [mistralai/Mistral-Large-4-1T-A52B · Hugging Face](https://reddit.com/r/LocalLLaMA/comments/1xil58b/mistralaimistrallarge41ta52b_hugging_face/) | r/LocalLLaMA | 314 | 78 |
+| 16 | [Copium Prediction: Google and other major labs will drop new...](https://reddit.com/r/LocalLLaMA/comments/1xjigxg/copium_prediction_google_and_other_major_labs/) | r/LocalLLaMA | 211 | 55 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 17 | [🚀 OpenEBFM: Can Energy-Based Models Scale as Foundation Mode...](https://reddit.com/r/LocalLLaMA/comments/1xj6vw8/openebfm_can_energybased_models_scale_as/) | r/LocalLLaMA | 14 | 5 |
+| 17 | [8b parameter model \(EVLF-FM\) surpasses clinicians in multimo...](https://reddit.com/r/LocalLLaMA/comments/1xk3pom/8b_parameter_model_evlffm_surpasses_clinicians_in/) | r/LocalLLaMA | 11 | 9 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 18 | [UkisAI Swift GLM5.3 + GSQ-RCO, Swift Ornith 9B / -57.7% Toke...](https://reddit.com/r/LocalLLaMA/comments/1xisqge/ukisai_swift_glm53_gsqrco_swift_ornith_9b_577/) | r/LocalLLaMA | 84 | 18 |
+| 18 | [Video grep in terminal for Agents](https://reddit.com/r/LocalLLaMA/comments/1xk4tx7/video_grep_in_terminal_for_agents/) | r/LocalLLaMA | 8 | 1 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 19 | [10 coding agents, one Qwen 3.8 27B, same llama-server: token...](https://reddit.com/r/LocalLLaMA/comments/1xj182d/10_coding_agents_one_qwen_38_27b_same_llamaserver/) | r/LocalLLaMA | 30 | 28 |
+| 19 | [The Multidimensional Butterfly Effect: What Cohere Didn't Te...](https://reddit.com/r/LocalLLaMA/comments/1xjx36m/the_multidimensional_butterfly_effect_what_cohere/) | r/LocalLLaMA | 32 | 7 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 20 | [Qwen 3.8 what am I missing here?](https://reddit.com/r/LocalLLaMA/comments/1xj2hi1/qwen_38_what_am_i_missing_here/) | r/LocalLLaMA | 24 | 57 |
+| 20 | [Local ai made it to space 🚀](https://reddit.com/r/LocalLLaMA/comments/1xjrdji/local_ai_made_it_to_space/) | r/LocalLLaMA | 61 | 29 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
 
 ---
@@ -68,43 +68,43 @@
 
 | 排名 | 标题 | 社区 | 分数 | 评论数 |
 |------|------|------|------|--------|
-| 1 | [Hacker reverse engineers his Samsung TV and finds on-device ...](https://reddit.com/r/singularity/comments/1xduimx/hacker_reverse_engineers_his_samsung_tv_and_finds/) | r/singularity | 17848 | 1322 |
+| 1 | [Developer uses Claude to overhaul his parents’ TV, removing ...](https://reddit.com/r/singularity/comments/1xfh36p/developer_uses_claude_to_overhaul_his_parents_tv/) | r/singularity | 12759 | 753 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 2 | [Developer uses Claude to overhaul his parents’ TV, removing ...](https://reddit.com/r/singularity/comments/1xfh36p/developer_uses_claude_to_overhaul_his_parents_tv/) | r/singularity | 12579 | 748 |
+| 2 | [Sam Altman: “Local inference is a terrible allocation of sca...](https://reddit.com/r/LocalLLaMA/comments/1xizbq1/sam_altman_local_inference_is_a_terrible/) | r/LocalLLaMA | 5816 | 2614 |
+| 3 | [OpenAI and Anthropic blocked the reverse engineering of smar...](https://reddit.com/r/LocalLLaMA/comments/1xer30z/openai_and_anthropic_blocked_the_reverse/) | r/LocalLLaMA | 4096 | 607 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 3 | [Sam Altman: “Local inference is a terrible allocation of sca...](https://reddit.com/r/LocalLLaMA/comments/1xizbq1/sam_altman_local_inference_is_a_terrible/) | r/LocalLLaMA | 4096 | 1869 |
-| 4 | [OpenAI and Anthropic blocked the reverse engineering of smar...](https://reddit.com/r/LocalLLaMA/comments/1xer30z/openai_and_anthropic_blocked_the_reverse/) | r/LocalLLaMA | 4017 | 599 |
+| 4 | [Claude Opus 5.5 helps developer bring the entire Super Mario...](https://reddit.com/r/singularity/comments/1xgw6sk/claude_opus_55_helps_developer_bring_the_entire/) | r/singularity | 3526 | 261 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 5 | [Claude Opus 5.5 helps developer bring the entire Super Mario...](https://reddit.com/r/singularity/comments/1xgw6sk/claude_opus_55_helps_developer_bring_the_entire/) | r/singularity | 3421 | 256 |
+| 5 | [Dario Amodei, CEO of Anthropic, speaking out against the war...](https://reddit.com/r/singularity/comments/1xekblx/dario_amodei_ceo_of_anthropic_speaking_out/) | r/singularity | 3425 | 418 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 6 | [Dario Amodei, CEO of Anthropic, speaking out against the war...](https://reddit.com/r/singularity/comments/1xekblx/dario_amodei_ceo_of_anthropic_speaking_out/) | r/singularity | 3367 | 416 |
+| 6 | [Biotech about to go vertical?](https://reddit.com/r/singularity/comments/1xih8qk/biotech_about_to_go_vertical/) | r/singularity | 3250 | 807 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 7 | [Biotech about to go vertical?](https://reddit.com/r/singularity/comments/1xih8qk/biotech_about_to_go_vertical/) | r/singularity | 3013 | 762 |
+| 7 | [my AI agents after I give them full access and tell them to ...](https://reddit.com/r/OpenAI/comments/1xilser/my_ai_agents_after_i_give_them_full_access_and/) | r/OpenAI | 2511 | 75 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 8 | [Dirt cheap GPUs coming next year](https://reddit.com/r/LocalLLaMA/comments/1xhep6w/dirt_cheap_gpus_coming_next_year/) | r/LocalLLaMA | 2355 | 803 |
+| 8 | [Dirt cheap GPUs coming next year](https://reddit.com/r/LocalLLaMA/comments/1xhep6w/dirt_cheap_gpus_coming_next_year/) | r/LocalLLaMA | 2465 | 836 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 9 | [Apsara conference: Qwen4 next week](https://reddit.com/r/LocalLLaMA/comments/1xif6lf/apsara_conference_qwen4_next_week/) | r/LocalLLaMA | 2207 | 461 |
-| 10 | [Crazy realistic now. We're cooked.](https://reddit.com/r/OpenAI/comments/1xgm2as/crazy_realistic_now_were_cooked/) | r/OpenAI | 2015 | 660 |
+| 9 | [Every time I visit the antiai sub](https://reddit.com/r/singularity/comments/1xjleej/every_time_i_visit_the_antiai_sub/) | r/singularity | 2318 | 382 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 11 | [my AI agents after I give them full access and tell them to ...](https://reddit.com/r/OpenAI/comments/1xilser/my_ai_agents_after_i_give_them_full_access_and/) | r/OpenAI | 1978 | 63 |
+| 10 | [Apsara conference: Qwen4 next week](https://reddit.com/r/LocalLLaMA/comments/1xif6lf/apsara_conference_qwen4_next_week/) | r/LocalLLaMA | 2252 | 476 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 12 | [Babe wake up Kimi K3.1 is rated higher than Fable 5.1 on Art...](https://reddit.com/r/singularity/comments/1xdligf/babe_wake_up_kimi_k31_is_rated_higher_than_fable/) | r/singularity | 1710 | 352 |
+| 11 | [Crazy realistic now. We're cooked.](https://reddit.com/r/OpenAI/comments/1xgm2as/crazy_realistic_now_were_cooked/) | r/OpenAI | 2166 | 706 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 13 | [Researchers found an "evil neuron" and when they activate it...](https://reddit.com/r/OpenAI/comments/1xhra80/researchers_found_an_evil_neuron_and_when_they/) | r/OpenAI | 1666 | 889 |
+| 12 | [Researchers found an "evil neuron" and when they activate it...](https://reddit.com/r/OpenAI/comments/1xhra80/researchers_found_an_evil_neuron_and_when_they/) | r/OpenAI | 1763 | 912 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 14 | [OpenAI says its AI invented a new mathematical technique to ...](https://reddit.com/r/singularity/comments/1xgaw9b/openai_says_its_ai_invented_a_new_mathematical/) | r/singularity | 1602 | 241 |
+| 13 | [What if everything leaked? Every photo, every text](https://reddit.com/r/OpenAI/comments/1xjd83r/what_if_everything_leaked_every_photo_every_text/) | r/OpenAI | 1627 | 208 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 15 | [Gemini 4 Carbon](https://reddit.com/r/singularity/comments/1xhtwjm/gemini_4_carbon/) | r/singularity | 1595 | 525 |
+| 14 | [Gemini 4 Carbon](https://reddit.com/r/singularity/comments/1xhtwjm/gemini_4_carbon/) | r/singularity | 1619 | 525 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 16 | [I am a King, but local 😂](https://reddit.com/r/LocalLLaMA/comments/1xgy5ic/i_am_a_king_but_local/) | r/LocalLLaMA | 1464 | 352 |
+| 15 | [OpenAI says its AI invented a new mathematical technique to ...](https://reddit.com/r/singularity/comments/1xgaw9b/openai_says_its_ai_invented_a_new_mathematical/) | r/singularity | 1618 | 244 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 17 | [Altman admits the cybersecurity crisis is going to get worse...](https://reddit.com/r/OpenAI/comments/1xdcjhe/altman_admits_the_cybersecurity_crisis_is_going/) | r/OpenAI | 1397 | 415 |
+| 16 | [Another reason to own your own compute. Your account may get...](https://reddit.com/r/LocalLLaMA/comments/1xjgfuv/another_reason_to_own_your_own_compute_your/) | r/LocalLLaMA | 1499 | 356 |
+| 17 | [I am a King, but local 😂](https://reddit.com/r/LocalLLaMA/comments/1xgy5ic/i_am_a_king_but_local/) | r/LocalLLaMA | 1484 | 354 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 18 | [Revenue: $16.3B Net loss: $80.7B IPO valuation: $2T](https://reddit.com/r/singularity/comments/1xe02h6/revenue_163b_net_loss_807b_ipo_valuation_2t/) | r/singularity | 1295 | 433 |
+| 18 | [Mistral Large 4 \(Le Chonk\) is now open weight](https://reddit.com/r/LocalLLaMA/comments/1xil3qy/mistral_large_4_le_chonk_is_now_open_weight/) | r/LocalLLaMA | 1298 | 215 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 19 | [When will OpenAI change its name to OpenSI?](https://reddit.com/r/OpenAI/comments/1xh5phe/when_will_openai_change_its_name_to_opensi/) | r/OpenAI | 1251 | 927 |
+| 19 | [Altman: "I don't even know a dramatic enough word to use… mo...](https://reddit.com/r/singularity/comments/1xe5i3d/altman_i_dont_even_know_a_dramatic_enough_word_to/) | r/singularity | 1271 | 418 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 20 | [Altman: "I don't even know a dramatic enough word to use… mo...](https://reddit.com/r/singularity/comments/1xe5i3d/altman_i_dont_even_know_a_dramatic_enough_word_to/) | r/singularity | 1231 | 416 |
+| 20 | [When will OpenAI change its name to OpenSI?](https://reddit.com/r/OpenAI/comments/1xh5phe/when_will_openai_change_its_name_to_opensi/) | r/OpenAI | 1269 | 931 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
 
 ---
@@ -113,38 +113,39 @@
 
 | 排名 | 标题 | 社区 | 分数 | 评论数 |
 |------|------|------|------|--------|
-| 1 | [Hacker reverse engineers his Samsung TV and finds on-device ...](https://reddit.com/r/singularity/comments/1xduimx/hacker_reverse_engineers_his_samsung_tv_and_finds/) | r/singularity | 17853 | 1322 |
-| 2 | [Developer uses Claude to overhaul his parents’ TV, removing ...](https://reddit.com/r/singularity/comments/1xfh36p/developer_uses_claude_to_overhaul_his_parents_tv/) | r/singularity | 12585 | 748 |
-| 3 | [OpenAI being stingy with all those billions](https://reddit.com/r/OpenAI/comments/1x01ape/openai_being_stingy_with_all_those_billions/) | r/OpenAI | 10626 | 439 |
+| 1 | [Hacker reverse engineers his Samsung TV and finds on-device ...](https://reddit.com/r/singularity/comments/1xduimx/hacker_reverse_engineers_his_samsung_tv_and_finds/) | r/singularity | 17887 | 1325 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 4 | [PewDiePie getting banned twice by OpenAI while making a loca...](https://reddit.com/r/LocalLLaMA/comments/1wymgu6/pewdiepie_getting_banned_twice_by_openai_while/) | r/LocalLLaMA | 5435 | 548 |
+| 2 | [Developer uses Claude to overhaul his parents’ TV, removing ...](https://reddit.com/r/singularity/comments/1xfh36p/developer_uses_claude_to_overhaul_his_parents_tv/) | r/singularity | 12771 | 753 |
+| 3 | [OpenAI being stingy with all those billions](https://reddit.com/r/OpenAI/comments/1x01ape/openai_being_stingy_with_all_those_billions/) | r/OpenAI | 10639 | 439 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 5 | [Glad we’re focusing on the important things](https://reddit.com/r/singularity/comments/1x0xkzm/glad_were_focusing_on_the_important_things/) | r/singularity | 4863 | 1544 |
+| 4 | [Sam Altman: “Local inference is a terrible allocation of sca...](https://reddit.com/r/LocalLLaMA/comments/1xizbq1/sam_altman_local_inference_is_a_terrible/) | r/LocalLLaMA | 5821 | 2614 |
+| 5 | [PewDiePie getting banned twice by OpenAI while making a loca...](https://reddit.com/r/LocalLLaMA/comments/1wymgu6/pewdiepie_getting_banned_twice_by_openai_while/) | r/LocalLLaMA | 5449 | 542 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 6 | [this line was written in 1960s btw, felt like he time travel...](https://reddit.com/r/singularity/comments/1x5ty7c/this_line_was_written_in_1960s_btw_felt_like_he/) | r/singularity | 4830 | 400 |
+| 6 | [Glad we’re focusing on the important things](https://reddit.com/r/singularity/comments/1x0xkzm/glad_were_focusing_on_the_important_things/) | r/singularity | 4873 | 1543 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 7 | [It's been too quiet on the other side of the Pacific](https://reddit.com/r/LocalLLaMA/comments/1x4u6vi/its_been_too_quiet_on_the_other_side_of_the/) | r/LocalLLaMA | 4827 | 570 |
+| 7 | [this line was written in 1960s btw, felt like he time travel...](https://reddit.com/r/singularity/comments/1x5ty7c/this_line_was_written_in_1960s_btw_felt_like_he/) | r/singularity | 4852 | 400 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 8 | [We did it everybody. Close the sub.](https://reddit.com/r/singularity/comments/1xawecs/we_did_it_everybody_close_the_sub/) | r/singularity | 4109 | 1507 |
+| 8 | [It's been too quiet on the other side of the Pacific](https://reddit.com/r/LocalLLaMA/comments/1x4u6vi/its_been_too_quiet_on_the_other_side_of_the/) | r/LocalLLaMA | 4833 | 569 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 9 | [Sam Altman: “Local inference is a terrible allocation of sca...](https://reddit.com/r/LocalLLaMA/comments/1xizbq1/sam_altman_local_inference_is_a_terrible/) | r/LocalLLaMA | 4100 | 1869 |
-| 10 | [OpenAI and Anthropic blocked the reverse engineering of smar...](https://reddit.com/r/LocalLLaMA/comments/1xer30z/openai_and_anthropic_blocked_the_reverse/) | r/LocalLLaMA | 4015 | 599 |
-| 11 | [PewDiePie is trying to distill GPT-Sol](https://reddit.com/r/OpenAI/comments/1ww3rq7/pewdiepie_is_trying_to_distill_gptsol/) | r/OpenAI | 3965 | 526 |
+| 9 | [We did it everybody. Close the sub.](https://reddit.com/r/singularity/comments/1xawecs/we_did_it_everybody_close_the_sub/) | r/singularity | 4105 | 1507 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 12 | [Claude Opus 5.5 created this in 18 hours](https://reddit.com/r/singularity/comments/1wx73vr/claude_opus_55_created_this_in_18_hours/) | r/singularity | 3582 | 668 |
+| 10 | [OpenAI and Anthropic blocked the reverse engineering of smar...](https://reddit.com/r/LocalLLaMA/comments/1xer30z/openai_and_anthropic_blocked_the_reverse/) | r/LocalLLaMA | 4094 | 607 |
+| 11 | [PewDiePie is trying to distill GPT-Sol](https://reddit.com/r/OpenAI/comments/1ww3rq7/pewdiepie_is_trying_to_distill_gptsol/) | r/OpenAI | 3968 | 526 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 13 | [Claude Opus 5.5 decompiles a PS2-era game overnight, and hun...](https://reddit.com/r/artificial/comments/1x2tq6s/claude_opus_55_decompiles_a_ps2era_game_overnight/) | r/artificial | 3446 | 352 |
+| 12 | [Claude Opus 5.5 created this in 18 hours](https://reddit.com/r/singularity/comments/1wx73vr/claude_opus_55_created_this_in_18_hours/) | r/singularity | 3590 | 668 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 14 | [Claude Opus 5.5 helps developer bring the entire Super Mario...](https://reddit.com/r/singularity/comments/1xgw6sk/claude_opus_55_helps_developer_bring_the_entire/) | r/singularity | 3415 | 256 |
-| 15 | [Researchers connected a simulated fruit fly brain to Odyssey...](https://reddit.com/r/singularity/comments/1x8qyc7/researchers_connected_a_simulated_fruit_fly_brain/) | r/singularity | 3394 | 356 |
+| 13 | [Claude Opus 5.5 helps developer bring the entire Super Mario...](https://reddit.com/r/singularity/comments/1xgw6sk/claude_opus_55_helps_developer_bring_the_entire/) | r/singularity | 3526 | 261 |
+| 14 | [Claude Opus 5.5 decompiles a PS2-era game overnight, and hun...](https://reddit.com/r/artificial/comments/1x2tq6s/claude_opus_55_decompiles_a_ps2era_game_overnight/) | r/artificial | 3458 | 346 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 16 | [Dario Amodei, CEO of Anthropic, speaking out against the war...](https://reddit.com/r/singularity/comments/1xekblx/dario_amodei_ceo_of_anthropic_speaking_out/) | r/singularity | 3367 | 416 |
-| 17 | [Linux creator says anti-AI rules are "idiotic." \(Absolute go...](https://reddit.com/r/LocalLLaMA/comments/1x8e4wd/linux_creator_says_antiai_rules_are_idiotic/) | r/LocalLLaMA | 3298 | 510 |
+| 15 | [Dario Amodei, CEO of Anthropic, speaking out against the war...](https://reddit.com/r/singularity/comments/1xekblx/dario_amodei_ceo_of_anthropic_speaking_out/) | r/singularity | 3434 | 418 |
+| 16 | [Researchers connected a simulated fruit fly brain to Odyssey...](https://reddit.com/r/singularity/comments/1x8qyc7/researchers_connected_a_simulated_fruit_fly_brain/) | r/singularity | 3400 | 356 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 18 | [Google releasing their most powerful model yet](https://reddit.com/r/singularity/comments/1wv0jvd/google_releasing_their_most_powerful_model_yet/) | r/singularity | 3215 | 94 |
+| 17 | [Linux creator says anti-AI rules are "idiotic." \(Absolute go...](https://reddit.com/r/LocalLLaMA/comments/1x8e4wd/linux_creator_says_antiai_rules_are_idiotic/) | r/LocalLLaMA | 3310 | 511 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
-| 19 | [Biotech about to go vertical?](https://reddit.com/r/singularity/comments/1xih8qk/biotech_about_to_go_vertical/) | r/singularity | 3022 | 762 |
-| 20 | [Q: Who should be held accountable when the AI agents commit ...](https://reddit.com/r/OpenAI/comments/1wu20hr/q_who_should_be_held_accountable_when_the_ai/) | r/OpenAI | 2796 | 943 |
+| 18 | [Biotech about to go vertical?](https://reddit.com/r/singularity/comments/1xih8qk/biotech_about_to_go_vertical/) | r/singularity | 3245 | 807 |
+| 19 | [Google releasing their most powerful model yet](https://reddit.com/r/singularity/comments/1wv0jvd/google_releasing_their_most_powerful_model_yet/) | r/singularity | 3213 | 94 |
+| | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
+| 20 | [Unitree's newest robot: H2-X Kung Fu Legend Guardian](https://reddit.com/r/singularity/comments/1xbidfc/unitrees_newest_robot_h2x_kung_fu_legend_guardian/) | r/singularity | 2780 | 887 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | |
 
 ---
@@ -153,15 +154,15 @@
 
 | 排名 | 标题 | 社区 | 质量评分 | 分数 | 评论数 |
 |------|------|------|----------|------|--------|
-| 1 | [Sam Altman: “Local inference is a terrible allocat...](https://reddit.com/r/LocalLLaMA/comments/1xizbq1/sam_altman_local_inference_is_a_terrible/) | r/LocalLLaMA | 82.40 | 4095 | 1869 |
+| 1 | [Sam Altman: “Local inference is a terrible allocat...](https://reddit.com/r/LocalLLaMA/comments/1xizbq1/sam_altman_local_inference_is_a_terrible/) | r/LocalLLaMA | 79.63 | 5816 | 2614 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | | |
-| 2 | [Crazy realistic now. We're cooked.](https://reddit.com/r/OpenAI/comments/1xgm2as/crazy_realistic_now_were_cooked/) | r/OpenAI | 75.33 | 2018 | 660 |
+| 2 | [Crazy realistic now. We're cooked.](https://reddit.com/r/OpenAI/comments/1xgm2as/crazy_realistic_now_were_cooked/) | r/OpenAI | 75.65 | 2166 | 706 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | | |
-| 3 | [Developer uses Claude to overhaul his parents’ TV,...](https://reddit.com/r/singularity/comments/1xfh36p/developer_uses_claude_to_overhaul_his_parents_tv/) | r/singularity | 80.00 | 12585 | 748 |
+| 3 | [Developer uses Claude to overhaul his parents’ TV,...](https://reddit.com/r/singularity/comments/1xfh36p/developer_uses_claude_to_overhaul_his_parents_tv/) | r/singularity | 80.00 | 12771 | 753 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | | |
-| 4 | [Q: Who should be held accountable when the AI agen...](https://reddit.com/r/OpenAI/comments/1wu20hr/q_who_should_be_held_accountable_when_the_ai/) | r/OpenAI | 73.29 | 2796 | 943 |
+| 4 | [Hacker reverse engineers his Samsung TV and finds ...](https://reddit.com/r/singularity/comments/1xduimx/hacker_reverse_engineers_his_samsung_tv_and_finds/) | r/singularity | 78.00 | 17887 | 1325 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | | |
-| 5 | [Hacker reverse engineers his Samsung TV and finds ...](https://reddit.com/r/singularity/comments/1xduimx/hacker_reverse_engineers_his_samsung_tv_and_finds/) | r/singularity | 80.00 | 17853 | 1322 |
+| 5 | [After researchers discovered a "pain" signal insid...](https://reddit.com/r/OpenAI/comments/1wuy2x1/after_researchers_discovered_a_pain_signal_inside/) | r/OpenAI | 72.94 | 2440 | 2346 |
 | | ⚠️ 摘要生成错误：LLM调用失败: Error code: 401 - Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error | | | | |
 
 ---
@@ -170,21 +171,21 @@
 
 | 关键词 | 出现频率 | 趋势级别 |
 |--------|----------|----------|
-| ai | 343 | 🔥 热门 |
-| model | 139 | 🔥 热门 |
-| agent | 111 | 🔥 热门 |
-| openai | 54 | 🔥 热门 |
-| local | 53 | 🔥 热门 |
-| gpt | 43 | 📈 上升 |
-| llm | 40 | 📈 上升 |
-| claude | 36 | 📈 上升 |
-| rag | 28 | 📈 上升 |
-| langchain | 28 | 📈 上升 |
-| anthropic | 21 | ➡️ 一般 |
-| chatgpt | 17 | ➡️ 一般 |
-| training | 16 | ➡️ 一般 |
-| inference | 15 | ➡️ 一般 |
-| transformer | 14 | ➡️ 一般 |
+| ai | 339 | 🔥 热门 |
+| model | 128 | 🔥 热门 |
+| agent | 88 | 🔥 热门 |
+| openai | 55 | 🔥 热门 |
+| gpt | 45 | 🔥 热门 |
+| local | 40 | 📈 上升 |
+| claude | 38 | 📈 上升 |
+| rag | 36 | 📈 上升 |
+| llm | 28 | 📈 上升 |
+| anthropic | 27 | 📈 上升 |
+| training | 23 | ➡️ 一般 |
+| langchain | 18 | ➡️ 一般 |
+| prompt | 14 | ➡️ 一般 |
+| chatgpt | 14 | ➡️ 一般 |
+| inference | 11 | ➡️ 一般 |
 
 ---
 
@@ -198,12 +199,12 @@
 
 ### 社区表现统计
 
-- **r/singularity**: 112个帖子, 平均分数 1671.8
-- **r/LocalLLaMA**: 150个帖子, 平均分数 844.4
-- **r/OpenAI**: 117个帖子, 平均分数 787.2
-- **r/artificial**: 77个帖子, 平均分数 280.1
-- **r/MachineLearning**: 132个帖子, 平均分数 60.8
-- **r/LangChain**: 90个帖子, 平均分数 9.9
+- **r/singularity**: 113个帖子, 平均分数 1531.9
+- **r/LocalLLaMA**: 150个帖子, 平均分数 850.4
+- **r/OpenAI**: 117个帖子, 平均分数 770.2
+- **r/artificial**: 77个帖子, 平均分数 290.3
+- **r/MachineLearning**: 129个帖子, 平均分数 62.9
+- **r/LangChain**: 81个帖子, 平均分数 11.8
 
 
 ---
